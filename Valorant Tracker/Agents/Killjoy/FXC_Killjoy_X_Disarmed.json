@@ -1,0 +1,151 @@
+[
+  {},
+  null,
+  {},
+  {
+    "1P_Animation": {
+      "Position": 183,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "FP_Killjoy_S0_X_DetainedState_Montage"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/Characters/Killjoy/S0/Ability_X/1P/Anims/FP_Killjoy_S0_X_DetainedState_Montage"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {},
+  {},
+  {
+    "ComponentClass": {
+      "Position": 273,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "SceneComponent"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Script/Engine"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "ComponentTemplate": {
+      "Position": 302,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "VariableGuid": {
+      "Position": 355,
+      "Value": {
+        "Hex": "3396439989-1080633314-2821440904-3503036598"
+      }
+    },
+    "InternalVariableName": {
+      "Position": 396,
+      "Value": {
+        "String": "DefaultSceneRoot"
+      }
+    }
+  },
+  {
+    "ComponentClass": {
+      "Position": 441,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "Comp_FXC_PlayAnimation_ShooterCharacter_C"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/Characters/Components/Comp_FXC_PlayAnimation_ShooterCharacter"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "ComponentTemplate": {
+      "Position": 470,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "VariableGuid": {
+      "Position": 523,
+      "Value": {
+        "Hex": "2766124227-1274989291-3544236185-850570151"
+      }
+    },
+    "InternalVariableName": {
+      "Position": 564,
+      "Value": {
+        "String": "Comp_FXC_PlayAnimation_ShooterCharacter"
+      }
+    }
+  },
+  {
+    "RootNodes": {
+      "Position": 617,
+      "Value": [
+        {
+          "Position": 621,
+          "Value": {
+            "Resource": null
+          }
+        },
+        {
+          "Position": 625,
+          "Value": {
+            "Resource": null
+          }
+        }
+      ]
+    },
+    "AllNodes": {
+      "Position": 662,
+      "Value": [
+        {
+          "Position": 666,
+          "Value": {
+            "Resource": null
+          }
+        },
+        {
+          "Position": 670,
+          "Value": {
+            "Resource": null
+          }
+        }
+      ]
+    },
+    "DefaultSceneRootNode": {
+      "Position": 699,
+      "Value": {
+        "Resource": null
+      }
+    }
+  }
+]

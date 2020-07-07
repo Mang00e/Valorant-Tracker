@@ -1,0 +1,94 @@
+[
+  {},
+  null,
+  {
+    "UberGraphFrame": {
+      "Position": 256,
+      "Value": {}
+    },
+    "OptionName": {
+      "Position": 289,
+      "Value": {
+        "Text": {
+          "TableId": {
+            "String": "/Game/Voting/Voting_Strings.Voting_Strings"
+          },
+          "Key": "VoteUI_No"
+        }
+      }
+    },
+    "SlashCommands": {
+      "Position": 349,
+      "Value": [
+        {
+          "Position": 353,
+          "Value": {
+            "Text": {
+              "TableId": {
+                "String": "/Game/Voting/Voting_Strings.Voting_Strings"
+              },
+              "Key": "Vote_NoCommand_Variant1"
+            }
+          }
+        },
+        {
+          "Position": 394,
+          "Value": {
+            "Text": {
+              "TableId": {
+                "String": "/Game/Voting/Voting_Strings.Voting_Strings"
+              },
+              "Key": "Vote_NoCommand_Variant2"
+            }
+          }
+        },
+        {
+          "Position": 435,
+          "Value": {
+            "Text": {
+              "TableId": {
+                "String": "/Game/Voting/Voting_Strings.Voting_Strings"
+              },
+              "Key": "Vote_NoCommand_Variant3"
+            }
+          }
+        },
+        {
+          "Position": 476,
+          "Value": {
+            "Text": {
+              "TableId": {
+                "String": "/Game/Voting/Voting_Strings.Voting_Strings"
+              },
+              "Key": "Vote_NoCommand_Variant4"
+            }
+          }
+        }
+      ]
+    },
+    "VoteKeybindIndex": {
+      "Position": 542,
+      "Value": 1
+    },
+    "VotesNeededRatio": {
+      "Position": 571,
+      "Value": 0.1
+    }
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {}
+]

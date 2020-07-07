@@ -1,0 +1,164 @@
+[
+  {},
+  null,
+  {
+    "EffectTailTime": {
+      "Position": 175,
+      "Value": 2.0
+    },
+    "InitialLifeSpan": {
+      "Position": 204,
+      "Value": 2.0
+    }
+  },
+  {
+    "PlayOnStart": {
+      "Position": 241,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "Play_Abil_Decoy_Shatter_TimeOut"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/AudioGenerated/Assets/Test_AudioForDesigners_Events/Play_Abil_Decoy_Shatter_TimeOut"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "AddTailForSound": {
+      "Position": 269,
+      "Value": false
+    }
+  },
+  {},
+  {},
+  {
+    "ComponentClass": {
+      "Position": 357,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "SceneComponent"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Script/Engine"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "ComponentTemplate": {
+      "Position": 386,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "VariableGuid": {
+      "Position": 439,
+      "Value": {
+        "Hex": "927735192-1262991764-2486590884-1589634514"
+      }
+    },
+    "InternalVariableName": {
+      "Position": 480,
+      "Value": {
+        "String": "DefaultSceneRoot"
+      }
+    }
+  },
+  {
+    "ComponentClass": {
+      "Position": 525,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "Comp_FXC_AudioBasic_C"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/Audio/Core/Comp_FXC_AudioBasic"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "ComponentTemplate": {
+      "Position": 554,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "VariableGuid": {
+      "Position": 607,
+      "Value": {
+        "Hex": "3432121431-1098066610-3303540878-1154337512"
+      }
+    },
+    "InternalVariableName": {
+      "Position": 648,
+      "Value": {
+        "String": "Comp_FXC_AudioBasic"
+      }
+    }
+  },
+  {
+    "RootNodes": {
+      "Position": 701,
+      "Value": [
+        {
+          "Position": 705,
+          "Value": {
+            "Resource": null
+          }
+        },
+        {
+          "Position": 709,
+          "Value": {
+            "Resource": null
+          }
+        }
+      ]
+    },
+    "AllNodes": {
+      "Position": 746,
+      "Value": [
+        {
+          "Position": 750,
+          "Value": {
+            "Resource": null
+          }
+        },
+        {
+          "Position": 754,
+          "Value": {
+            "Resource": null
+          }
+        }
+      ]
+    },
+    "DefaultSceneRootNode": {
+      "Position": 783,
+      "Value": {
+        "Resource": null
+      }
+    }
+  }
+]

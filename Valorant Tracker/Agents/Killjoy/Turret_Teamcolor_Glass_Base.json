@@ -1,0 +1,106 @@
+[
+  {
+    "EmissiveColor": {
+      "Position": 49,
+      "Value": {
+        "Parent": {
+          "ExpressionName": {
+            "String": "MaterialExpressionVectorParameter"
+          }
+        },
+        "UseConstant": false,
+        "Constant": {
+          "R": 0,
+          "G": 0,
+          "B": 0,
+          "A": 0,
+          "Hex": "000000"
+        }
+      }
+    },
+    "BlendMode": {
+      "Position": 130,
+      "Value": 5
+    },
+    "bUsedWithSkeletalMesh": {
+      "Position": 162,
+      "Value": true
+    },
+    "bUsedWithMeshParticles": {
+      "Position": 188,
+      "Value": true
+    },
+    "bUsedWithStaticLighting": {
+      "Position": 214,
+      "Value": true
+    },
+    "Expressions": {
+      "Position": 249,
+      "Value": [
+        {
+          "Position": 253,
+          "Value": {
+            "Resource": null
+          }
+        }
+      ]
+    },
+    "bCanMaskedBeAssumedOpaque": {
+      "Position": 281,
+      "Value": true
+    },
+    "StateId": {
+      "Position": 332,
+      "Value": {
+        "Hex": "2824524820-1207062235-578383513-1696677279"
+      }
+    },
+    "CachedQualityLevelsUsed": {
+      "Position": 381,
+      "Value": [
+        {
+          "Position": 385,
+          "Value": false
+        },
+        {
+          "Position": 386,
+          "Value": true
+        },
+        {
+          "Position": 387,
+          "Value": false
+        }
+      ]
+    }
+  },
+  {
+    "DefaultValue": {
+      "Position": 145885,
+      "Value": {
+        "R": 0.49419,
+        "G": 0.501751,
+        "B": 0.51,
+        "A": 0.333333,
+        "Hex": "557E8082"
+      }
+    },
+    "ParameterName": {
+      "Position": 145926,
+      "Value": {
+        "String": "GlassColor"
+      }
+    },
+    "ExpressionGUID": {
+      "Position": 145983,
+      "Value": {
+        "Hex": "376369995-1104756697-60904103-3621890230"
+      }
+    },
+    "Material": {
+      "Position": 146024,
+      "Value": {
+        "Resource": null
+      }
+    }
+  }
+]

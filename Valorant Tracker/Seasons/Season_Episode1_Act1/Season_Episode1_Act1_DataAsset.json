@@ -1,0 +1,32 @@
+[
+  null,
+  {
+    "StartTime": {
+      "Position": 125,
+      "Value": {
+        "Ticks": 637265916000000000
+      }
+    },
+    "EndTime": {
+      "Position": 182,
+      "Value": {
+        "Ticks": 637321211990000000
+      }
+    },
+    "UIData": {
+      "Position": 215,
+      "Value": {
+        "AssetPathName": {
+          "String": "/Game/Seasons/Season_Episode1_Act1_UIData.Season_Episode1_Act1_UIData_C"
+        },
+        "SubPathString": null
+      }
+    },
+    "Uuid": {
+      "Position": 276,
+      "Value": {
+        "Hex": "1063372658-1163971903-1564452779-1522378419"
+      }
+    }
+  }
+]

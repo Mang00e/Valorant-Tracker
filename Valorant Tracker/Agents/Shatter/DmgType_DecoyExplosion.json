@@ -1,0 +1,96 @@
+[
+  null,
+  {
+    "KillIcon": {
+      "Position": 125,
+      "Value": {
+        "Texture": {
+          "Position": 150,
+          "Value": {
+            "Resource": {
+              "ObjectName": {
+                "String": "TX_Hud_Icons_Abilities_Shatter3"
+              },
+              "OuterIndex": {
+                "Resource": {
+                  "ObjectName": {
+                    "String": "/Game/UI/InGame/HUD/Abilities/Assets/NormalNew/TX_Hud_Icons_Abilities_Shatter3"
+                  },
+                  "OuterIndex": {
+                    "Resource": null
+                  }
+                }
+              }
+            }
+          }
+        },
+        "UL": {
+          "Position": 179,
+          "Value": 34.0
+        },
+        "VL": {
+          "Position": 208,
+          "Value": 25.0
+        }
+      }
+    },
+    "bShowHitConfirm": {
+      "Position": 244,
+      "Value": false
+    },
+    "bApplySelfDamageMultiplier": {
+      "Position": 270,
+      "Value": false
+    },
+    "bIgnoreFriendlyFire": {
+      "Position": 296,
+      "Value": true
+    },
+    "bIsNonLethal": {
+      "Position": 322,
+      "Value": true
+    },
+    "DisplayNameText": {
+      "Position": 349,
+      "Value": {
+        "Text": {
+          "Namespace": "",
+          "Key": "72182F414255E3F2742221A05B701CC8",
+          "SourceString": "Decoy Explosion"
+        }
+      }
+    },
+    "DamageCategory": {
+      "Position": 448,
+      "Value": {
+        "String": "EAresDamageCategory::DamageCategory_Explosive"
+      }
+    },
+    "DamageIndicationType": {
+      "Position": 489,
+      "Value": {
+        "String": "EAresDamageIndicationType::PrioritizeDamageCauser"
+      }
+    },
+    "DamageSource": {
+      "Position": 522,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "DmgSource_Ability_C"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/Blueprints/DamageSources/DmgSource_Ability"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,102 @@
+[
+  null,
+  {
+    "Persistence": {
+      "Position": 130,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "PathFollowingComponent": {
+      "Position": 159,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "BrainComponent": {
+      "Position": 188,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "ActionsComp": {
+      "Position": 217,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "Blackboard": {
+      "Position": 246,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "TransformComponent": {
+      "Position": 275,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "RootComponent": {
+      "Position": 304,
+      "Value": {
+        "Resource": null
+      }
+    }
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "ComponentClass": {
+      "Position": 425,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "SceneComponent"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Script/Engine"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "ComponentTemplate": {
+      "Position": 454,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "VariableGuid": {
+      "Position": 507,
+      "Value": {
+        "Hex": "520647536-1296224625-3513833143-1295510212"
+      }
+    },
+    "InternalVariableName": {
+      "Position": 548,
+      "Value": {
+        "String": "DefaultSceneRoot"
+      }
+    }
+  },
+  {
+    "DefaultSceneRootNode": {
+      "Position": 593,
+      "Value": {
+        "Resource": null
+      }
+    }
+  }
+]

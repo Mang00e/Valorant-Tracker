@@ -1,0 +1,109 @@
+[
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  null,
+  {
+    "YesVotesNeededText": {
+      "Position": 1320,
+      "Value": {
+        "Text": {
+          "TableId": {
+            "String": "/Game/UI/InGame/HUD/GameInfoHUD/SurrenderVoting_Strings.SurrenderVoting_Strings"
+          },
+          "Key": "YesVotesNeeded"
+        }
+      }
+    },
+    "ReplicationSleepComponent": {
+      "Position": 1377,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "RootComponent": {
+      "Position": 1406,
+      "Value": {
+        "Resource": null
+      }
+    }
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "ComponentClass": {
+      "Position": 2309,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "SceneComponent"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Script/Engine"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "ComponentTemplate": {
+      "Position": 2338,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "VariableGuid": {
+      "Position": 2391,
+      "Value": {
+        "Hex": "2662135870-1258292366-1424477873-3897954062"
+      }
+    },
+    "InternalVariableName": {
+      "Position": 2432,
+      "Value": {
+        "String": "DefaultSceneRoot"
+      }
+    }
+  },
+  {
+    "DefaultSceneRootNode": {
+      "Position": 2477,
+      "Value": {
+        "Resource": null
+      }
+    }
+  }
+]

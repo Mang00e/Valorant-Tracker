@@ -1,0 +1,32 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "UI_Season",
+      "KeysToMetadata": {
+        "UI_Season": {
+          "Season_Friends_and_Family": "Friends and Family",
+          "Seasons_Closed_Beta": "Closed Beta",
+          "CurrentActRating": "CURRENT ACT RATING",
+          "TopRatedWins": "TOP RATED WINS",
+          "Level": "BORDER LEVEL {number}",
+          "DaysRemaining": "{number}d REMAINING",
+          "TotalGames": "TOTAL GAMES",
+          "TotalWins": "TOTAL COMPETITIVE WINS",
+          "Act1_Name": "ACT 1",
+          "Act2_Name": "ACT 2",
+          "Act3_Name": "ACT 3",
+          "StartTimeTooltip": "Starts in {month}",
+          "EndedTime": "Ended on {month}/{day}",
+          "RankWin": "{rank} WIN",
+          "ActRank": "ACT RANK",
+          "Unavailable": "UNAVAILABLE",
+          "Episode1_Name": "EPISODE 1",
+          "LinkToCareerTooltip": "View in CAREER"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/Seasons/UI_Seasons_Strings"
+    }
+  }
+]

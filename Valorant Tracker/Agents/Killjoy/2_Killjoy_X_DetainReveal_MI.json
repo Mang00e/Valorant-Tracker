@@ -1,0 +1,1080 @@
+[
+  {
+    "Parent": {
+      "Position": 25,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "0_MultiRimTrans_MAT"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/VFX/Materials/0_MultiRimTrans_MAT"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "bHasStaticPermutationResource": {
+      "Position": 53,
+      "Value": true
+    },
+    "ScalarParameterValues": {
+      "Position": 88,
+      "Value": [
+        {
+          "Position": 141,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 190,
+              "Value": {
+                "Name": {
+                  "Position": 215,
+                  "Value": {
+                    "String": "Alpha_Base_Power"
+                  }
+                },
+                "Association": {
+                  "Position": 256,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 289,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 326,
+              "Value": 0.1
+            },
+            "ExpressionGUID": {
+              "Position": 379,
+              "Value": {
+                "Hex": "1938148615-1219745466-237335202-2908339840"
+              }
+            }
+          }
+        },
+        {
+          "Position": 403,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 452,
+              "Value": {
+                "Name": {
+                  "Position": 477,
+                  "Value": {
+                    "String": "Alpha_ColorMult"
+                  }
+                },
+                "Association": {
+                  "Position": 518,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 551,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 588,
+              "Value": 0.0
+            },
+            "ExpressionGUID": {
+              "Position": 641,
+              "Value": {
+                "Hex": "3957685096-1160582704-3482701457-847032261"
+              }
+            }
+          }
+        },
+        {
+          "Position": 665,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 714,
+              "Value": {
+                "Name": {
+                  "Position": 739,
+                  "Value": {
+                    "String": "DepthBias"
+                  }
+                },
+                "Association": {
+                  "Position": 780,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 813,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 850,
+              "Value": -0.1
+            },
+            "ExpressionGUID": {
+              "Position": 903,
+              "Value": {
+                "Hex": "65588637-1324139974-812229787-196372234"
+              }
+            }
+          }
+        },
+        {
+          "Position": 927,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 976,
+              "Value": {
+                "Name": {
+                  "Position": 1001,
+                  "Value": {
+                    "String": "Alpha_Dissolve_Opacity"
+                  }
+                },
+                "Association": {
+                  "Position": 1042,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 1075,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 1112,
+              "Value": 0.207412
+            },
+            "ExpressionGUID": {
+              "Position": 1165,
+              "Value": {
+                "Hex": "3341936026-1186885571-464507572-463039224"
+              }
+            }
+          }
+        },
+        {
+          "Position": 1189,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 1238,
+              "Value": {
+                "Name": {
+                  "Position": 1263,
+                  "Value": {
+                    "String": "InnerEdgeThickness"
+                  }
+                },
+                "Association": {
+                  "Position": 1304,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 1337,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 1374,
+              "Value": 0.108257
+            },
+            "ExpressionGUID": {
+              "Position": 1427,
+              "Value": {
+                "Hex": "1214230261-1264575561-3565966748-3185470724"
+              }
+            }
+          }
+        },
+        {
+          "Position": 1451,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 1500,
+              "Value": {
+                "Name": {
+                  "Position": 1525,
+                  "Value": {
+                    "String": "OuterEdgeThickness"
+                  }
+                },
+                "Association": {
+                  "Position": 1566,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 1599,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 1636,
+              "Value": 0.371182
+            },
+            "ExpressionGUID": {
+              "Position": 1689,
+              "Value": {
+                "Hex": "2895915257-1267459607-2934162583-696476070"
+              }
+            }
+          }
+        },
+        {
+          "Position": 1713,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 1762,
+              "Value": {
+                "Name": {
+                  "Position": 1787,
+                  "Value": {
+                    "String": "Rim_Fresnel"
+                  }
+                },
+                "Association": {
+                  "Position": 1828,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 1861,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 1898,
+              "Value": 1.0
+            },
+            "ExpressionGUID": {
+              "Position": 1951,
+              "Value": {
+                "Hex": "1241917270-1247147966-4150542506-2803711912"
+              }
+            }
+          }
+        },
+        {
+          "Position": 1975,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 2024,
+              "Value": {
+                "Name": {
+                  "Position": 2049,
+                  "Value": {
+                    "String": "Rim_Multiply"
+                  }
+                },
+                "Association": {
+                  "Position": 2090,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 2123,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 2160,
+              "Value": 1.0
+            },
+            "ExpressionGUID": {
+              "Position": 2213,
+              "Value": {
+                "Hex": "3017703425-1331302969-3901070469-1598836979"
+              }
+            }
+          }
+        },
+        {
+          "Position": 2237,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 2286,
+              "Value": {
+                "Name": {
+                  "Position": 2311,
+                  "Value": {
+                    "String": "Rim_Power"
+                  }
+                },
+                "Association": {
+                  "Position": 2352,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 2385,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 2422,
+              "Value": 1.0
+            },
+            "ExpressionGUID": {
+              "Position": 2475,
+              "Value": {
+                "Hex": "1006839718-1235996588-3691011477-2793289804"
+              }
+            }
+          }
+        },
+        {
+          "Position": 2499,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 2548,
+              "Value": {
+                "Name": {
+                  "Position": 2573,
+                  "Value": {
+                    "String": "OcclusionDepth"
+                  }
+                },
+                "Association": {
+                  "Position": 2614,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 2647,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 2684,
+              "Value": 0.0
+            },
+            "ExpressionGUID": {
+              "Position": 2737,
+              "Value": {
+                "Hex": "2856208519-1115238719-736252567-2519365325"
+              }
+            }
+          }
+        },
+        {
+          "Position": 2761,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 2810,
+              "Value": {
+                "Name": {
+                  "Position": 2835,
+                  "Value": {
+                    "String": "OcclusionDepth_BehindWall"
+                  }
+                },
+                "Association": {
+                  "Position": 2876,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 2909,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 2946,
+              "Value": 1.0
+            },
+            "ExpressionGUID": {
+              "Position": 2999,
+              "Value": {
+                "Hex": "3946169709-1309629819-2745109922-1181057723"
+              }
+            }
+          }
+        },
+        {
+          "Position": 3023,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 3072,
+              "Value": {
+                "Name": {
+                  "Position": 3097,
+                  "Value": {
+                    "String": "OcclusionState"
+                  }
+                },
+                "Association": {
+                  "Position": 3138,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 3171,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 3208,
+              "Value": 1.0
+            },
+            "ExpressionGUID": {
+              "Position": 3261,
+              "Value": {
+                "Hex": "363625343-1189981876-345903247-2245339204"
+              }
+            }
+          }
+        },
+        {
+          "Position": 3285,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 3334,
+              "Value": {
+                "Name": {
+                  "Position": 3359,
+                  "Value": {
+                    "String": "RefractionDepthBias"
+                  }
+                },
+                "Association": {
+                  "Position": 3400,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 3433,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 3470,
+              "Value": 0.0
+            },
+            "ExpressionGUID": {
+              "Position": 3523,
+              "Value": {
+                "Hex": "0-0-0-0"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "VectorParameterValues": {
+      "Position": 3580,
+      "Value": [
+        {
+          "Position": 3633,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 3682,
+              "Value": {
+                "Name": {
+                  "Position": 3707,
+                  "Value": {
+                    "String": "SilohuetteColor"
+                  }
+                },
+                "Association": {
+                  "Position": 3748,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 3781,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 3842,
+              "Value": {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "FFFF00"
+              }
+            },
+            "ExpressionGUID": {
+              "Position": 3907,
+              "Value": {
+                "Hex": "1346695277-1139742721-573860520-3164138921"
+              }
+            }
+          }
+        },
+        {
+          "Position": 3931,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 3980,
+              "Value": {
+                "Name": {
+                  "Position": 4005,
+                  "Value": {
+                    "String": "CenterEdgeColor"
+                  }
+                },
+                "Association": {
+                  "Position": 4046,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 4079,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 4140,
+              "Value": {
+                "R": 0.776042,
+                "G": 0.650164,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "C6A600"
+              }
+            },
+            "ExpressionGUID": {
+              "Position": 4205,
+              "Value": {
+                "Hex": "4087499984-1087719406-2546660273-1709402593"
+              }
+            }
+          }
+        },
+        {
+          "Position": 4229,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 4278,
+              "Value": {
+                "Name": {
+                  "Position": 4303,
+                  "Value": {
+                    "String": "InnerEdgeColor"
+                  }
+                },
+                "Association": {
+                  "Position": 4344,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 4377,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 4438,
+              "Value": {
+                "R": 30.0,
+                "G": 20.413887,
+                "B": 0.950945,
+                "A": 1.0,
+                "Hex": "E256F2"
+              }
+            },
+            "ExpressionGUID": {
+              "Position": 4503,
+              "Value": {
+                "Hex": "265044924-1172253772-2303918499-4101339511"
+              }
+            }
+          }
+        },
+        {
+          "Position": 4527,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 4576,
+              "Value": {
+                "Name": {
+                  "Position": 4601,
+                  "Value": {
+                    "String": "OuterEdgeColor"
+                  }
+                },
+                "Association": {
+                  "Position": 4642,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 4675,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 4736,
+              "Value": {
+                "R": 30.0,
+                "G": 14.872437,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "E2D000"
+              }
+            },
+            "ExpressionGUID": {
+              "Position": 4801,
+              "Value": {
+                "Hex": "3522594102-1289658088-1821879735-3710093166"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "TextureParameterValues": {
+      "Position": 4858,
+      "Value": [
+        {
+          "Position": 4911,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 4960,
+              "Value": {
+                "Name": {
+                  "Position": 4985,
+                  "Value": {
+                    "String": "Emissive_Base"
+                  }
+                },
+                "Association": {
+                  "Position": 5026,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 5059,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 5096,
+              "Value": {
+                "Resource": {
+                  "ObjectName": {
+                    "String": "DefaultDiffuse"
+                  },
+                  "OuterIndex": {
+                    "Resource": {
+                      "ObjectName": {
+                        "String": "/Engine/EngineMaterials/DefaultDiffuse"
+                      },
+                      "OuterIndex": {
+                        "Resource": null
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "ExpressionGUID": {
+              "Position": 5149,
+              "Value": {
+                "Hex": "2267348012-1298970973-1103188136-535491338"
+              }
+            }
+          }
+        },
+        {
+          "Position": 5173,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 5222,
+              "Value": {
+                "Name": {
+                  "Position": 5247,
+                  "Value": {
+                    "String": "Alpha_Base"
+                  }
+                },
+                "Association": {
+                  "Position": 5288,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 5321,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 5358,
+              "Value": {
+                "Resource": {
+                  "ObjectName": {
+                    "String": "Noise_TEX"
+                  },
+                  "OuterIndex": {
+                    "Resource": {
+                      "ObjectName": {
+                        "String": "/Game/VFX/Textures/Old/Noise_TEX"
+                      },
+                      "OuterIndex": {
+                        "Resource": null
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "ExpressionGUID": {
+              "Position": 5411,
+              "Value": {
+                "Hex": "3597032303-1214979627-2155488387-1554446109"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "BasePropertyOverrides": {
+      "Position": 5484,
+      "Value": {
+        "bOverride_BlendMode": {
+          "Position": 5508,
+          "Value": true
+        },
+        "BlendMode": {
+          "Position": 5543,
+          "Value": 18
+        },
+        "ShadingModel": {
+          "Position": 5584,
+          "Value": 48
+        },
+        "OpacityMaskClipValue": {
+          "Position": 5617,
+          "Value": 0.3333
+        }
+      }
+    },
+    "StaticParameters": {
+      "Position": 5678,
+      "Value": {
+        "StaticSwitchParameters": {
+          "Position": 5711,
+          "Value": [
+            {
+              "Position": 5764,
+              "Value": {
+                "ParameterInfo": {
+                  "Position": 5813,
+                  "Value": {
+                    "Name": {
+                      "Position": 5838,
+                      "Value": {
+                        "String": "StaticMeshAlpha_aToggle"
+                      }
+                    },
+                    "Association": {
+                      "Position": 5879,
+                      "Value": 37
+                    },
+                    "Index": {
+                      "Position": 5912,
+                      "Value": -1
+                    }
+                  }
+                },
+                "Value": {
+                  "Position": 5948,
+                  "Value": true
+                },
+                "bOverride": {
+                  "Position": 5974,
+                  "Value": true
+                },
+                "ExpressionGUID": {
+                  "Position": 6025,
+                  "Value": {
+                    "Hex": "2929043731-1091402518-4124525192-3835597717"
+                  }
+                }
+              }
+            },
+            {
+              "Position": 6049,
+              "Value": {
+                "ParameterInfo": {
+                  "Position": 6098,
+                  "Value": {
+                    "Name": {
+                      "Position": 6123,
+                      "Value": {
+                        "String": "StaticMeshColor_aToggle"
+                      }
+                    },
+                    "Association": {
+                      "Position": 6164,
+                      "Value": 37
+                    },
+                    "Index": {
+                      "Position": 6197,
+                      "Value": -1
+                    }
+                  }
+                },
+                "Value": {
+                  "Position": 6233,
+                  "Value": true
+                },
+                "bOverride": {
+                  "Position": 6259,
+                  "Value": true
+                },
+                "ExpressionGUID": {
+                  "Position": 6310,
+                  "Value": {
+                    "Hex": "215453323-1331067010-4243652792-358778463"
+                  }
+                }
+              }
+            },
+            {
+              "Position": 6334,
+              "Value": {
+                "ParameterInfo": {
+                  "Position": 6383,
+                  "Value": {
+                    "Name": {
+                      "Position": 6408,
+                      "Value": {
+                        "String": "Emissive_aToggle"
+                      }
+                    },
+                    "Association": {
+                      "Position": 6449,
+                      "Value": 37
+                    },
+                    "Index": {
+                      "Position": 6482,
+                      "Value": -1
+                    }
+                  }
+                },
+                "Value": {
+                  "Position": 6518,
+                  "Value": true
+                },
+                "bOverride": {
+                  "Position": 6544,
+                  "Value": true
+                },
+                "ExpressionGUID": {
+                  "Position": 6595,
+                  "Value": {
+                    "Hex": "3363366147-1084640095-2969374398-2599874868"
+                  }
+                }
+              }
+            },
+            {
+              "Position": 6619,
+              "Value": {
+                "ParameterInfo": {
+                  "Position": 6668,
+                  "Value": {
+                    "Name": {
+                      "Position": 6693,
+                      "Value": {
+                        "String": "Alpha_aToggle"
+                      }
+                    },
+                    "Association": {
+                      "Position": 6734,
+                      "Value": 37
+                    },
+                    "Index": {
+                      "Position": 6767,
+                      "Value": -1
+                    }
+                  }
+                },
+                "Value": {
+                  "Position": 6803,
+                  "Value": false
+                },
+                "bOverride": {
+                  "Position": 6829,
+                  "Value": true
+                },
+                "ExpressionGUID": {
+                  "Position": 6880,
+                  "Value": {
+                    "Hex": "1606511856-1224389290-2999387289-3261726031"
+                  }
+                }
+              }
+            },
+            {
+              "Position": 6904,
+              "Value": {
+                "ParameterInfo": {
+                  "Position": 6953,
+                  "Value": {
+                    "Name": {
+                      "Position": 6978,
+                      "Value": {
+                        "String": "Cull_InnerTriangles"
+                      }
+                    },
+                    "Association": {
+                      "Position": 7019,
+                      "Value": 37
+                    },
+                    "Index": {
+                      "Position": 7052,
+                      "Value": -1
+                    }
+                  }
+                },
+                "Value": {
+                  "Position": 7088,
+                  "Value": false
+                },
+                "bOverride": {
+                  "Position": 7114,
+                  "Value": true
+                },
+                "ExpressionGUID": {
+                  "Position": 7165,
+                  "Value": {
+                    "Hex": "2622817908-1265084998-2776738481-3335998298"
+                  }
+                }
+              }
+            },
+            {
+              "Position": 7189,
+              "Value": {
+                "ParameterInfo": {
+                  "Position": 7238,
+                  "Value": {
+                    "Name": {
+                      "Position": 7263,
+                      "Value": {
+                        "String": "Alpha_Dissolve_aToggle"
+                      }
+                    },
+                    "Association": {
+                      "Position": 7304,
+                      "Value": 37
+                    },
+                    "Index": {
+                      "Position": 7337,
+                      "Value": -1
+                    }
+                  }
+                },
+                "Value": {
+                  "Position": 7373,
+                  "Value": false
+                },
+                "bOverride": {
+                  "Position": 7399,
+                  "Value": true
+                },
+                "ExpressionGUID": {
+                  "Position": 7450,
+                  "Value": {
+                    "Hex": "4262196661-1239499241-1620866696-1631840431"
+                  }
+                }
+              }
+            },
+            {
+              "Position": 7474,
+              "Value": {
+                "ParameterInfo": {
+                  "Position": 7523,
+                  "Value": {
+                    "Name": {
+                      "Position": 7548,
+                      "Value": {
+                        "String": "Rim_aToggle"
+                      }
+                    },
+                    "Association": {
+                      "Position": 7589,
+                      "Value": 37
+                    },
+                    "Index": {
+                      "Position": 7622,
+                      "Value": -1
+                    }
+                  }
+                },
+                "Value": {
+                  "Position": 7658,
+                  "Value": false
+                },
+                "bOverride": {
+                  "Position": 7684,
+                  "Value": true
+                },
+                "ExpressionGUID": {
+                  "Position": 7735,
+                  "Value": {
+                    "Hex": "3102216597-1295865699-1756802202-156479624"
+                  }
+                }
+              }
+            },
+            {
+              "Position": 7759,
+              "Value": {
+                "ParameterInfo": {
+                  "Position": 7808,
+                  "Value": {
+                    "Name": {
+                      "Position": 7833,
+                      "Value": {
+                        "String": "Rim_aToggleReverse"
+                      }
+                    },
+                    "Association": {
+                      "Position": 7874,
+                      "Value": 37
+                    },
+                    "Index": {
+                      "Position": 7907,
+                      "Value": -1
+                    }
+                  }
+                },
+                "Value": {
+                  "Position": 7943,
+                  "Value": false
+                },
+                "bOverride": {
+                  "Position": 7969,
+                  "Value": true
+                },
+                "ExpressionGUID": {
+                  "Position": 8020,
+                  "Value": {
+                    "Hex": "3216829194-1204626887-1624978349-901929812"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]

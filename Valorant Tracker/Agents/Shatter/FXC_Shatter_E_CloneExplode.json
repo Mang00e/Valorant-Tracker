@@ -1,0 +1,224 @@
+[
+  {},
+  null,
+  {
+    "UberGraphFrame": {
+      "Position": 301,
+      "Value": {}
+    },
+    "ExplosionParticle": {
+      "Position": 334,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "Blast_DecoyDestroy_VFX"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/VFX/ParticleSystems/ProxyVFX/Blast_DecoyDestroy_VFX"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "ExplosionSound": {
+      "Position": 363,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "Play_Abil_Shatter_s0_Decoy_Explode"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/AudioGenerated/Assets/Test_AudioForDesigners_Events/Play_Abil_Shatter_s0_Decoy_Explode"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "InitialLifeSpan": {
+      "Position": 392,
+      "Value": 3.0
+    }
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "PlayOnStart": {
+      "Position": 1139,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "Play_Abil_Shatter_s0_Decoy_Explode"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/AudioGenerated/Assets/Test_AudioForDesigners_Events/Play_Abil_Shatter_s0_Decoy_Explode"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "AddTailForSound": {
+      "Position": 1167,
+      "Value": false
+    }
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "ComponentClass": {
+      "Position": 1617,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "SceneComponent"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Script/Engine"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "ComponentTemplate": {
+      "Position": 1646,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "VariableGuid": {
+      "Position": 1699,
+      "Value": {
+        "Hex": "706790214-1084163245-2864278918-3701010756"
+      }
+    },
+    "InternalVariableName": {
+      "Position": 1740,
+      "Value": {
+        "String": "DefaultSceneRoot"
+      }
+    }
+  },
+  {
+    "ComponentClass": {
+      "Position": 1785,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "Comp_FXC_AudioBasic_C"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/Audio/Core/Comp_FXC_AudioBasic"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "ComponentTemplate": {
+      "Position": 1814,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "VariableGuid": {
+      "Position": 1867,
+      "Value": {
+        "Hex": "4109319555-1130190592-163323046-45538135"
+      }
+    },
+    "InternalVariableName": {
+      "Position": 1908,
+      "Value": {
+        "String": "Comp_FXC_AudioBasic"
+      }
+    }
+  },
+  {
+    "RootNodes": {
+      "Position": 1961,
+      "Value": [
+        {
+          "Position": 1965,
+          "Value": {
+            "Resource": null
+          }
+        },
+        {
+          "Position": 1969,
+          "Value": {
+            "Resource": null
+          }
+        }
+      ]
+    },
+    "AllNodes": {
+      "Position": 2006,
+      "Value": [
+        {
+          "Position": 2010,
+          "Value": {
+            "Resource": null
+          }
+        },
+        {
+          "Position": 2014,
+          "Value": {
+            "Resource": null
+          }
+        }
+      ]
+    },
+    "DefaultSceneRootNode": {
+      "Position": 2043,
+      "Value": {
+        "Resource": null
+      }
+    }
+  },
+  {}
+]
