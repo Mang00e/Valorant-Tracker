@@ -1,0 +1,15 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "UI_Buff_Strings",
+      "KeysToMetadata": {
+        "UI_Buff_Strings": {
+          "Healing": "HEALING"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/UI/InGame/HUD/BuffHUD/UI_Buff_Strings"
+    }
+  }
+]

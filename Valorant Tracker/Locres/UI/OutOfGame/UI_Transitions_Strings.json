@@ -1,0 +1,20 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "UI_Transitions_Strings",
+      "KeysToMetadata": {
+        "UI_Transitions_Strings": {
+          "Header_Attacking": "ATTACKING",
+          "Bind_Coordinates": "34°2'A'N,6°51'Z'W",
+          "Ascent_Coordinates": "45°26'BF'N,12°20'Q'E",
+          "Haven_Coordinates": "27°28'A'N,89°38'WZ'E",
+          "Split_Coordinates": "35°41'CD'N,139°41'WX'E",
+          "TheRange_Coordinates": "45°26'FF'N,12°20'Q'E"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/UI/OutOfGame/Transitions/UI_Transitions_Strings"
+    }
+  }
+]

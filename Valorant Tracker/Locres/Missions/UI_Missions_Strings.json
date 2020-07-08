@@ -1,0 +1,48 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "UI_Missions_Strings",
+      "KeysToMetadata": {
+        "UI_Missions_Strings": {
+          "Mission_PlayAGame_Title": "Play A Game",
+          "Mission_Kills_Title": "Kill Enemies",
+          "Mission_Ultimate_Title": "Use Your Ultimate",
+          "Objective_PlayAGame_Title": "Play {Num} {Num}|plural(one=Game,other=Games)",
+          "Objective_KillPlayer_Title": "Kill {Num} {Num}|plural(one=Player,other=Players)",
+          "Objective_Ultimate_Title": "Use Ultimate {Num} {Num}|plural(one=Time,other=Times)",
+          "Mission_AbilityUsage_Title": "Use Your Abilities",
+          "Objective_AbilityUsage_Title": "Use {Num} {Num}|plural(one=Ability,other=Abilities)",
+          "Mission_DealDamage_Title": "Deal Damage",
+          "Objective_DealDamage_Title": "Deal {Num} Damage",
+          "Mission_Headshots_Title": "Get Headshots",
+          "Objective_Headshots_Title": "Get {Num} {Num}|plural(one=Headshot,other=Headshots)",
+          "Mission_PurchaseArmor_Title": "Purchase Shields",
+          "Objective_PurchaseArmor_Title": "Purchase {Num} {Num}|plural(one=Shield,other=Shields)",
+          "Mission_BombPlantDefuse_Title": "You or your Ally Plant or Defuse Spikes",
+          "Objective_BombPlantDefuse_Title": "Plant or Defuse {Num} {Num}|plural(one=Spike,other=Spikes)",
+          "Objective_PurchaseGuns_Title": "Purchase {Num} {Num}|plural(one=Weapon,other=Weapons)",
+          "Objective_PurchaseAbilities_Title": "Purchase {Num} {Num}|plural(one=Ability,other=Abilities)",
+          "Objective_Purchase_Title": "Purchase {Num} {Num}|plural(one=Item,other=Items) from the Armory",
+          "Mission_PurchaseGuns_Title": "Purchase Weapons",
+          "Mission_PurchaseAbilities_Title": "Purchase Abilities",
+          "Mission_UltOrb_Title": "Pick Up Ultimate Orbs",
+          "Objective_UltOrb_Title": "Pick Up {Num} Ultimate {Num}|plural(one=Orb,other=Orbs)",
+          "Mission_Purchase_Title": "Purchase Items from the Armory",
+          "Mission_BuyAlliesEquipment_Title": "Buy Allies Equipment",
+          "Objective_BuyAlliesEquipment_Title": "Buy Equipment for Allies {Num} {Num}|plural(one=Time,other=Times)",
+          "Mission_First_Blood_Title": "Get First Blood in a round",
+          "Objective_First_Blood_Title": "Get First Blood {Num} {Num}|plural(one=Time,other=Times)",
+          "Objective_KillEnemyGun_Title": "Get {Num} {Num}|plural(one=Kill,other=Kills) with an Enemy's Weapon",
+          "Mission_KillEnemyGun_Title": "Kill With Enemy Guns",
+          "Mission_Kill_Player_While_Ally_Interacting_With_Bomb_Title": "Kill While Ally is Planting / Defusing",
+          "Objective_Kill_Player_While_Ally_Interacting_With_Bomb_Title": "Kill {Num} {Num}|plural(one=Enemy,other=Enemies) while an Ally is Planting or Defusing the Spike",
+          "Mission_PlayRounds_Title": "Play Rounds",
+          "Objective_PlayRounds_Title": "Play {Num} {Num}|plural(one=Round,other=Rounds)"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/Missions/UI_Missions_Strings"
+    }
+  }
+]

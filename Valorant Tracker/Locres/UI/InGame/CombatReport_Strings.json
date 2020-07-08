@@ -1,0 +1,55 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "CombatReport",
+      "KeysToMetadata": {
+        "CombatReport": {
+          "Round_NFormat": " ROUND {roundNumber}",
+          "AbilityGrenade": "4",
+          "AbilityGrenadeParens": "(4)",
+          "Ability2Parens": "(E)",
+          "Ability1Parens": "(Q)",
+          "AbilityUltimateParens": "(X)",
+          "ShowHideCombatReportTooltip": "[{InformationalHUDBinding}] SHOW/HIDE REPORT   [{ToggleCursorBinding}] TOGGLE MOUSE CURSOR",
+          "HitsDealtFormat": "{HitsDealt} {hitOrHits}",
+          "HitsFormat": "{HitsReceived} hits",
+          "PlayerCharacterFormat": "{killerName} ({character})",
+          "ResurrectionFormat": "{resurrectorName} revived you!",
+          "Zero": "0",
+          "AssistAbbreviation_A": "A",
+          "AllStatsLabel": "ALL STATS",
+          "AlliesFormat": "Allies: {AlliesNum}",
+          "AssistLabel": "ASSIST",
+          "CombatReportTitle": "COMBAT REPORT",
+          "DammageLabel": "DAMAGE",
+          "DammageDealtLabel": "DAMAGE DEALT TO KILLER",
+          "DamageReceivedLabel": "INCOMING",
+          "DamageToYouLabel": "DAMAGE TO YOU",
+          "DamageYouDealtLabel": "OUTGOING",
+          "Hit": "hit",
+          "Hits": "hits",
+          "HitsCaps": "HITS",
+          "InHitsFormat": "in {0} hits",
+          "KillAbberviation": "K",
+          "KilledLabel": "KILLED",
+          "KilledByLabel": "Killed by",
+          "KilledYouLabel": "KILLED YOU",
+          "KillerLabel": "KILLER",
+          "UnknownLabel": "Unknown",
+          "VsLabel": "vs.",
+          "VSLabel": "VS.",
+          "WatchReplayLabel": "WATCH REPLAY",
+          "WeaponAbilityLabel": "WEAPON / ABILITY",
+          "You": "You",
+          "YouDealtLabel": "YOU DEALT",
+          "YouDestroyedArmorFormat": "You destroyed their {armorName} shields.",
+          "KillerPlayerCardHeader": "KILLED BY",
+          "Headshot": "HEADSHOT"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/UI/InGame/CombatReport/CombatReport_Strings"
+    }
+  }
+]

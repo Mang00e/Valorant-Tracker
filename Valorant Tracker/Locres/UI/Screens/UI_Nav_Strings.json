@@ -1,0 +1,46 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "UI_Nav_Strings",
+      "KeysToMetadata": {
+        "UI_Nav_Strings": {
+          "Nav_Tab_Play": "PLAY",
+          "Nav_Tab_Collection": "COLLECTION",
+          "Nav_Tab_Progression": "PROGRESSION",
+          "Nav_Tab_Career": "CAREER",
+          "Nav_Tab_Practice": "PRACTICE",
+          "Nav_Tab_Store": "STORE",
+          "Nav_Button_Settings": "SETTINGS",
+          "Nav_Button_ExitGame": "EXIT TO DESKTOP",
+          "Nav_Button_GiveFeedbackViaWebBrowser": "Give Feedback via Web Browser",
+          "Matchmaking_Status_PlayersInQueue_PartiesInQueue": "MATCHMAKER: {0} \r\n{1} Players ({2} Parties)",
+          "Matchmaking_Status_Paused": "PAUSED",
+          "Matchmaking_Status_Running": "RUNNING",
+          "NavMenuError_JoinSessionFailed": "Join Session failed.",
+          "Nav_Button_ReportABug": "REPORT A BUG",
+          "Nav_NPE_Label_SiteA": "Site A",
+          "Nav_NPE_Label_SiteB": "Site B",
+          "Nav_NPE_Label_AsiteArrow": "A",
+          "Nav_NPE_Label_BsiteArrow": "B",
+          "Nav_NPE_Label_CsiteArrow": "C",
+          "Nav_NPE_Label_SiteC": "Site C",
+          "Nav_Tab_Home": "HOME",
+          "Nav_Button_PlayerSupport": "SUPPORT",
+          "Nav_Button_About": "ABOUT",
+          "Nav_Tab_Latest": "LATEST",
+          "Nav_Button_Logout": "SIGN OUT & EXIT",
+          "Nav_Checkbox_SignOutOnExit": "SIGN OUT ON EXIT",
+          "Exit_Confirmation": "Do you want to exit or sign out?",
+          "Nav_Button_Exit": "EXIT",
+          "Exit_Header": "EXIT TO DESKTOP?",
+          "Nav_Button_Close": "CLOSE",
+          "Nav_Button_Back": "BACK",
+          "Nav_Button_Next": "NEXT"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/UI/Screens/OutOfGame/MainMenu/Nav/UI_Nav_Strings"
+    }
+  }
+]

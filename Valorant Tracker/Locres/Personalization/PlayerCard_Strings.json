@@ -1,0 +1,61 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "PlayerCard_Strings",
+      "KeysToMetadata": {
+        "PlayerCard_Strings": {
+          "PlayerCard_Bloodsplatters_DisplayName": "Bloodsplatters Card",
+          "PlayerCard_CatVending_DisplayName": "Cat Vending Card",
+          "PlayerCard_EtherExplosion_DisplayName": "Radianite Explosion Card",
+          "PlayerCard_FistStar_DisplayName": "Fist Star Card",
+          "PlayerCard_HunterUlt_DisplayName": "Through The Looking Glass Card",
+          "PlayerCard_KingdomSite_DisplayName": "Kingdom Site Card",
+          "PlayerCard_Octopus_DisplayName": "What Ancient Mystery Card",
+          "PlayerCard_Skybox_DisplayName": "Skybox Card",
+          "PlayerCard_SoulstealerKnife_DisplayName": "Reaver Knife Card",
+          "PlayerCard_StainedGlass_DisplayName": "Stained Glass Card",
+          "PlayerCard_Tree_DisplayName": "Tree Card",
+          "PlayerCard_TriadFormations_DisplayName": "Haven Formations Card",
+          "PlayerCard_PandemicLabCoat_DisplayName": "VALORANT Viper Card",
+          "PlayerCard_PandemicUlt_DisplayName": "One Dark Night Card",
+          "PlayerCard_WraithTeleport_DisplayName": "VALORANT Omen Card",
+          "PlayerCard_WraithUlt_DisplayName": "What's Another Death Card",
+          "PlayerCard_WushuUlt_DisplayName": "Mirrored Edge Card",
+          "PlayerCard_PhoenixUlt_DisplayName": "Firestarter Card",
+          "PlayerCard_PhoenixIcon_DisplayName": "VALORANT Phoenix Card",
+          "PlayerCard_HunterPose_DisplayName": "VALORANT Sova Card",
+          "PlayerCard_Gumshoe01_DisplayName": "VALORANT Cypher Card",
+          "PlayerCard_Gumshoe02_DisplayName": "Redeemer's Folly Card",
+          "PlayerCard_Thorne01_DisplayName": "VALORANT Sage Card",
+          "PlayerCard_Thorne02_DisplayName": "Journey of Trials Card",
+          "PlayerCard_Wushu02_DisplayName": "VALORANT Jett Card",
+          "PlayerCard_Adev_DisplayName": "Proj A Developer Card",
+          "PlayerCard_Sarge01_DisplayName": "VALORANT Brimstone Card",
+          "PlayerCard_Sarge02_DisplayName": "No One Left Behind Card",
+          "PlayerCard_CathedralAscent_DisplayName": "Ascent Card",
+          "PlayerCard_LFG_DisplayName": "Looking For Group Card",
+          "PlayerCard_ReynaJoins_DisplayName": "Reyna ID Card",
+          "PlayerCard_ClassicPistolBeautyShot_DisplayName": "Classic Schema Card",
+          "PlayerCard_FounderCard_DisplayName": "MMXX Founder Card",
+          "PlayerCard_SpectreRifleBeautyShot_DisplayName": "Spectre Schema Card",
+          "PlayerCard_Corgi_DisplayName": "VALORANT Mascot Card",
+          "PlayerCard_Sunrise_DisplayName": "Sunrise Card",
+          "PlayerCard_OperatorRifleBeautyShot_DisplayName": "OP Schema Card",
+          "PlayerCard_KilljoyTease_DisplayName": "Vertraulich Card",
+          "PlayerCard_XXIICommemorative_DisplayName": "MMXX EP1 Card",
+          "PlayerCard_Prime_DisplayName": "Prime Card",
+          "PlayerCard_CodeRed_DisplayName": "Code Red Card",
+          "PlayerCard_Default_DisplayName": "VALORANT Card",
+          "PlayerCard_Rookie_DisplayName": "New Recruit Card",
+          "PlayerCard_Watcher_DisplayName": "Beta Watch Card",
+          "PlayerCard_VALORANTDawn_DisplayName": "VALORANT Dawn Card",
+          "PlayerCard_CB_DisplayName": "VALORANT Beta Card",
+          "PlayerCard_Sovereign_DisplayName": "Sovereign Card"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/Personalization/PlayerCards/PlayerCard_Strings"
+    }
+  }
+]

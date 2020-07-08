@@ -1,0 +1,28 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "Grenade_Strings",
+      "KeysToMetadata": {
+        "Grenade_Strings": {
+          "DamageType_Boomba": "Boomba",
+          "DamageType_ClusterPrimary": "Cluster Bomb (Main Cluster)",
+          "DamageType_ClusterSecondary": "Cluster Bomb (Secondary Cluster)",
+          "DamageType_Earthquake": "Earthquake",
+          "DamageType_Flashbang": "Flashbang",
+          "DamageType_HighExplosive": "HE Grenade Explosion",
+          "DamageType_Incendiary": "Incendiary Fire",
+          "DamageType_Nanoswarm": "Nanoswarm",
+          "DamageType_Necro": "NecroGrenade",
+          "DamageType_Satchel": "Satchel",
+          "DamageType_TearGas": "Tear Gas",
+          "DamageType_Thorns": "Thorns",
+          "DamageType_VultureMine": "Vulture Mine",
+          "DamageType_BowIncendiary": "Bow (Incendiary)"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/Projectiles/Grenades/Grenade_Strings"
+    }
+  }
+]

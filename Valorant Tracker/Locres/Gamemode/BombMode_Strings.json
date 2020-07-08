@@ -1,0 +1,65 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "BombMode_Strings",
+      "KeysToMetadata": {
+        "BombMode_Strings": {
+          "MaxLossStreakLabel": " (MAX)",
+          "KickOffAction": "[Hold F] Kick ally off and Defuse",
+          "LossStreakFormat": "{Streak}x Loss Streak{IsMax}",
+          "ZeroSpaced": "0:    ",
+          "ZeroFormat": "0{Number}",
+          "RoundWinEnergyLabel": "Win Energy",
+          "ActiveLabel": "Active",
+          "AssistRewardLabel": "Assist",
+          "BombDefused": "SPIKE DEFUSED",
+          "BombPlantBonus": "Spike plant bonus",
+          "BombPlantBonusMessage": "Spike plant bonus!",
+          "BombPlantedMessage": "SPIKE PLANTED",
+          "Bounty": "Bounty",
+          "Death": "Death",
+          "DefenderLossBonus": "Defender Loss Bonus",
+          "DefusingMessage": "DEFUSING",
+          "Extracted": "Extracted Creds!",
+          "FirstBloodRewardLabel": "First Blood",
+          "GameStart": "First Round of Half",
+          "HealRewardLabel": "Heal",
+          "HoldAction": "HOLD",
+          "Kill": "Kill",
+          "LossStreakLabel": "Loss Streak: ",
+          "BonusClose": "Near Victory Bonus",
+          "OvertimeReward": "Endgame Start",
+          "PersonalPlantReward": "Personal Plant Bonus",
+          "QuickPlayModeDisplayName": "QuickPlay",
+          "ReviveRewardLabel": "Revive",
+          "RoundEnergyRewardLabel": "Round Energy",
+          "SingleKillRewardLabel": "Round Kill x1",
+          "DoubleKillRewardLabel": "Round Kill x2",
+          "QuadKillRewardLabel": "Round Kill x4",
+          "PentaKillRewardLabel": "Round Kill x5",
+          "RoundLossRewardLabel": "Round Loss",
+          "RoundWinRewardLabel": "Round Win",
+          "ShieldAssistRewardLabel": "Shield Assist",
+          "SideSwapText": "SIDES SWAPPED",
+          "BombDisplayName": "SPIKE",
+          "BombInitiating": "SPIKE INITIATING",
+          "BombInitiated": "SPIKE INITIATED",
+          "BombGameModeDisplayName": "Standard",
+          "TeamRewardLabel": "Team Bounty",
+          "ToDiffuseActionLabel": "TO DEFUSE",
+          "ToPlantActionLabel": "TO PLANT SPIKE",
+          "TripleKillRewardLabel": "Round Kill x3",
+          "BountyStolen": "Stolen Bounty",
+          "AwayPenaltyLabel": "Away Penalty",
+          "MissingPlayerIncomeLabel": "Missing Player(s)",
+          "ModeDuration": "30-40 MINS",
+          "GameModeNameUnrated": "Standard (Unrated)",
+          "GameModeNameCompetitive": "Standard (Competitive)"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/GameModes/Bomb/BombMode_Strings"
+    }
+  }
+]

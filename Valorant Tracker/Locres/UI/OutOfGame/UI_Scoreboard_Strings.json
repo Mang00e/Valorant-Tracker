@@ -1,0 +1,49 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "UI_Scoreboard_Strings",
+      "KeysToMetadata": {
+        "UI_Scoreboard_Strings": {
+          "ToggleCursor_MiddleMouse": "(MIDDLE MOUSE): TOGGLE CURSOR",
+          "ToggleCursor_KeyBinding": "[ {toggleCursorKeyBinding} ]: TOGGLE CURSOR",
+          "RoundsToWin": "{roundsToWin} rounds to win",
+          "UltimatePointRatio": "{ultPoints} / {ultPointsNeeded}",
+          "Money_Amount": "¤ {money}",
+          "Header_Abilities": "ABILITIES",
+          "Attack_Abbreviation": "ATK",
+          "Defense_Abbreviation": "DEF",
+          "Ability1_DefaultKey": "E",
+          "KillDeathAssist_Abbreviation": "KDA",
+          "Header_Loadout": "LOADOUT",
+          "Header_Money": "CREDS",
+          "Header_Name": "NAME",
+          "Header_Ping": "PING",
+          "Ability2_DefaultKey": "Q",
+          "Header_Ready": "READY",
+          "Assist_OneLetterAbbreviation": "A",
+          "Header_AlliedTeam": "ALLIED TEAM",
+          "Deaths_OneLetterAbbreviation": "D",
+          "Header_Defeat": "DEFEAT",
+          "Header_EnemyTeam": "ENEMY TEAM",
+          "Kills_OneLetterAbbreviation": "K",
+          "Header_Player": "PLAYER",
+          "Report": "Report",
+          "Header_Score": "SCORE",
+          "ButtonText_Switch": "SWITCH",
+          "Unknown": "Unknown",
+          "Header_Victory": "VICTORY",
+          "Header_Ultimate": "ULTIMATE",
+          "Header_Weapon": "WEAPON",
+          "Header_BestWeapon": "BEST WEAPON",
+          "Grenade_DefaultKey": "4",
+          "Assist": "Assist",
+          "MissingInAction_Abbreviation": "Missing",
+          "MissingInAction_Tooltip": "This player has abandoned the game and won't be spawned in until they return. Their team will receive compensation."
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/UI/OutOfGame/MainMenu/Scoreboard/UI_Scoreboard_Strings"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "PlayerTitle_Strings",
+      "KeysToMetadata": {
+        "PlayerTitle_Strings": {
+          "Toxic": "Toxic",
+          "Default": " ",
+          "Pandemic": "Pandemic",
+          "RemoveTitleString": "Remove Title",
+          "Concussive": "Concussive",
+          "Grenadier": "Grenadier",
+          "Watchdog": "Watchdog",
+          "Hunter": "Hunter",
+          "Techie": "Techie",
+          "Hotshot": "Hotshot",
+          "Flashy": "Flashy",
+          "OldDog": "Old Dog",
+          "Warden": "Warden",
+          "Savage": "Savage",
+          "Swift": "Swift",
+          "Hasty": "Hasty",
+          "Harbinger": "Harbinger",
+          "Warhead": "Warhead",
+          "MindThief": "Mind Thief",
+          "Deadeye": "Deadeye",
+          "Genius": "Genius",
+          "HighCommand": "High Command",
+          "Ascendant": "Ascendant",
+          "Hurricane": "Hurricane",
+          "Revenant": "Revenant",
+          "EquipTitlesButton": "EQUIP TITLES",
+          "Enlightened": "Enlightened",
+          "Sharpshooter": "Sharpshooter",
+          "Coach": "Coach",
+          "AllStar": "All Star",
+          "Catastrophic": "Catastrophic",
+          "Ballistic": "Ballistic",
+          "Biohazard": "Biohazard",
+          "Inventive": "Inventive",
+          "Empress": "Empress",
+          "Recruit": "Recruit",
+          "First": "First",
+          "V1.0": "V1.0",
+          "TeamPlayer": "Team Player",
+          "LoneWolf": "Lone Wolf",
+          "DayOne": "Day One",
+          "Ascending": "Ascending"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/Personalization/Titles/PlayerTitle_Strings"
+    }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "UI_Input_Strings",
+      "KeysToMetadata": {
+        "UI_Input_Strings": {
+          "Mouse_LeftButton": "MB1",
+          "Mouse_RIghtButton": "MB2",
+          "Mouse_MiddleButton": "MB3",
+          "Mouse_ThumbButton1": "MB4",
+          "Mouse_ThumbButton2": "MB5",
+          "Backspace": "BSpace",
+          "Control_Left": "LCtrl",
+          "Control_Right": "RCtrl",
+          "Alt_Left": "LAlt",
+          "Alt_Right": "RAlt",
+          "Unbound": "None",
+          "Mouse_WheelUp": "WheelUp",
+          "Mouse_WheelDown": "WheelDn",
+          "Scroll_Lock": "ScrLk",
+          "Num_Lock": "NumLk"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/UI/Shared/Input/UI_Input_Strings"
+    }
+  }
+]

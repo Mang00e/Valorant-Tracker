@@ -1,0 +1,63 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "UI_Comms_Strings",
+      "KeysToMetadata": {
+        "UI_Comms_Strings": {
+          "KeyLocation_Map_Region_Name": "B\r\nMID",
+          "KeyLocation_Map_Tower": "TOWER",
+          "KeyLocation_Map_Mid": "MID",
+          "Ping_Smoke_Here": "NEED SMOKE",
+          "Ping_Break_Here": "NEED DISRUPT",
+          "Ping_Scout_Here": "NEED SCOUT",
+          "Ping_Go_Now": "PUSH!",
+          "Ping_Group_Here": "GATHER",
+          "Ping_Name_Smoke": "Request Smoke",
+          "Ping_Name_Push": "Order Push",
+          "Ping_Name_Countdown": "Place Timer",
+          "Ping_Name_Watching": "Watching Here",
+          "Ping_Name_Caution": "DANGER!",
+          "Ping_Name_Scout": "Request Scouting",
+          "Ping_Name_Break": "Request Disrupt",
+          "Ping_Name_Rally": "Need Support",
+          "Ping_Name_BasePing": "Ping",
+          "Ping_Cancel": "Cancel",
+          "Ping_Countdown_Go": "NOW!",
+          "Ping_Clear_Here": "CLEAR THIS AREA",
+          "Ping_Pushing_Countdown": "PUSHING",
+          "Ping_Countdown_In": "IN {3}",
+          "Ping_Name_Clear": "Request Clear",
+          "Ping_Name_OnMyWay": "On My Way",
+          "RushThemMessage": "{playerName}: {charName} wants to rush them!",
+          "OnSiteMessage": "{playerName}: {charName} is on point. Follow them!",
+          "FallbackMessage": "{playerName}: {charName} wants to fall back!",
+          "PlayForPicksMessage": "{playerName}: {charName} wants to play for picks.",
+          "RotateMessage": "{playerName}: {charName} wants to rotate now!",
+          "UltReadyMessage": "{playerName}: {charName}'s ultimate is ready!",
+          "Ping_Name_Enemy_Utility": "Enemy Utility Here",
+          "Comm_Tree_Enemies_Here": "{key}: Enemies are close!",
+          "Comm_Tree_OnMyWay": "{key}: On my way!",
+          "Comm_Tree_NeedHelp": "{key}: Need help!",
+          "Comm_Tree_FallBack": "{key}: Fall back!",
+          "Comm_Tree_GoNow": "{key}: GO NOW!",
+          "Comm_Tree_Yes": "{key}: Affirmative.",
+          "Comm_Tree_No": "{key}: Negative.",
+          "Comm_Tree_Thanks": "{key}: Thank you!",
+          "Comm_Tree_Commend": "{key}: Well done!",
+          "Comm_Tree_Hello": "{key}: Hello!",
+          "Comm_Tree_Social": "{key}: Social...",
+          "Comm_Tree_Close": "{key}: Exit",
+          "Comm_Tree_Sorry": "{key}: Sorry!",
+          "Comm_Tree_Quiet": "{key}: Be quiet.",
+          "Comm_Tree_Laugh": "{key}: Laugh",
+          "Ping_Mark_Orb": "Take Orb",
+          "Comm_Tree_Be_Careful": "{key}: Be Careful",
+          "TeamPartyChat_Region_Format": "{region}{spacer}{chatroom}"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/UI/InGame/QuickComms/UI_QuickComms_Strings"
+    }
+  }
+]

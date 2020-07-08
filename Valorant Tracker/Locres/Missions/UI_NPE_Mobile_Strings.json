@@ -1,0 +1,41 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "UI_NPE_Mobile_Strings",
+      "KeysToMetadata": {
+        "UI_NPE_Mobile_Strings": {
+          "NPE_Mobile_BasicMovement_Walk": "<Bold>Swipe</> the <CTA>Joystick</> or the <CTA>Left Side</> of your screen to move around. Walk to the highlighted square. ",
+          "NPE_Mobile_BasicMovement_Jump": "Use the <CTA>Jump Button</> to jump over the debris to the highlighted area.",
+          "NPE_Mobile_BasicMovement_Crouch": "Use the <CTA>Crouch Button</> to move under the collapsed pillar. ",
+          "NPE_Mobile_BasicMovement_GrabPistol": "Pick up the pistol by walking over it.",
+          "NPE_Mobile_BasicMovement_ShootDrone": "Shoot the flying drone by tapping the <CTA>Fire Button</>. ",
+          "NPE_Mobile_GunSkill_KillTwoBots": "Shoot the two bots with your pistol. <Bold>Standing still</> greatly increases your <Bold>accuracy</>. ",
+          "NPE_Mobile_GunSkill_GrabRifle": "The bot dropped a rifle. Pick it up by walking over it. ",
+          "NPE_Mobile_GunSkill_ShootDrone": "Shoot the flying gate drone to proceed to the next area. ",
+          "NPE_Mobile_GunSkill_KillTripleBots": "Tap the <CTA>Alt Fire Button</> to <Bold>Aim Down Sights</>. Ahead are three bots. Position yourself so you only engage them one at a time. ",
+          "NPE_Mobile_GunSkill_GoToSneakEntrance": "Great work! Head inside the hall to continue your training. ",
+          "NPE_Mobile_SneakIntro_KillBot": "Use the <CTA>Joystick's</> <Bold>inner circle</> to <Bold>walk slowly</>. Your footsteps won't make noise, so you can <Bold>surprise unaware enemies</>. ",
+          "NPE_Mobile_Range_BuyWeapon": "Tap the <CTA>Buy Button</> to open the armory. This is where you buy different guns as well as your abilities each round. ",
+          "NPE_Mobile_Range_GoToAsylum": "Once you're ready, move to the highlighted square. ",
+          "NPE_Mobile_Range_GoToRange": "Head inside the hall to continue your training. ",
+          "NPE_Mobile_Range_AdaptiveTest": "Shoot the target to start your skill test. Keep in mind: <Bold>Headshots</> kill faster than body or leg shots. ",
+          "NPE_Mobile_Range_ExitRange": "Great work! Next, exit the skill test hall. ",
+          "NPE_Mobile_Range_GoToTeleporter": "Enter the teleporter to continue your training. ",
+          "NPE_Mobile_Abilities_FireSonar": "Equip your <Bold>Recon Bolt</> using its <CTA>Ability Button</>, then tap the <CTA>Fire Button</> to launch it at the wall marker. ",
+          "NPE_Mobile_Abilities_KillBots": "Eliminate the targets revealed by your <Bold>Recon Bolt</>. ",
+          "NPE_Mobile_Bomb_GrabBomb": "Pick up the <Bold>Spike</> by walking over it. ",
+          "NPE_Mobile_Bomb_GoToSite": "Follow the walkway to the <Bold>Bomb Site</>.",
+          "NPE_Mobile_Bomb_Plant": "Stand on the <Bold>Bomb Site</>, then press and hold the <CTA>Spike Button</> to plant the <Bold>Spike</>. ",
+          "NPE_Mobile_Bomb_Defend": "Defend the <Bold>Spike</> from attacking bots. They'll attack from either side!",
+          "NPE_Mobile_Bomb_GoToBoathouse": "Planting the <Bold>Spike</> alerts the enemy. They're on their way. Take cover in the shed behind you! ",
+          "NPE_Mobile_Bomb_FireSonar": "The bots are gathering for their final push. Charge your bow and fire a <Bold>Recon Bolt</> into one of these locations to reveal them. ",
+          "NPE_Mobile_Bomb_KillBotsWithUlt": "Equip your charged <Bold>Ultimate Ability</>. You can shoot the bots through the wall with it!",
+          "NPE_Mobile_BasicMovement_Look": "<Bold>Swipe</> on the <CTA>Right Side</> of your screen to look around. <Bold>Turn left!</>"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/Missions/NewPlayerExperience/UI_NPE_Mobile_Strings"
+    }
+  }
+]

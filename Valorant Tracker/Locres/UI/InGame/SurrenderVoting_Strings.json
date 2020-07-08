@@ -1,0 +1,21 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "SurrenderVoting_Strings",
+      "KeysToMetadata": {
+        "SurrenderVoting_Strings": {
+          "SURRENDER?": "SURRENDER?",
+          "YesVotesNeeded": "{numberofvotes} YES {numberofvotes}|plural(one=VOTE,other=VOTES) NEEDED",
+          "Failed": "FAILED",
+          "SurrenderVote": "SURRENDER VOTE",
+          "Passed": "PASSED",
+          "NumberofPlayers": "{#/#} PLAYERS",
+          "VotedYes": "VOTED YES"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/UI/InGame/HUD/GameInfoHUD/SurrenderVoting_Strings"
+    }
+  }
+]

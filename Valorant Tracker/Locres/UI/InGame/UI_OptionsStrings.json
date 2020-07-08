@@ -1,0 +1,23 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "UI_OptionsStrings",
+      "KeysToMetadata": {
+        "UI_OptionsStrings": {
+          "ButtonText_Leave": "LEAVE MATCH",
+          "ButtonText_Exit": "EXIT TO DESKTOP",
+          "Label_PartyMembers": "PARTY MEMBERS",
+          "Label_Muted": "Muted",
+          "Label_Keybinds": "KEYBINDS",
+          "Label_Game": "GAME",
+          "Label_Player": "PLAYER",
+          "Button_On": "On",
+          "Button_Off": "Off"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/UI/InGame/Options/UI_OptionsStrings"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "GunBuddy_Strings",
+      "KeysToMetadata": {
+        "GunBuddy_Strings": {
+          "GunBuddy_FloatingIsland_DisplayName": "Ascent Rising Buddy",
+          "GunBuddy_CrateKingdom_DisplayName": "Radianite Crate Buddy",
+          "GunBuddy_Crate1_DisplayName": "Crate Buddy",
+          "GunBuddy_RadianiteDiamond_DisplayName": "Radianite Crystal Buddy",
+          "GunBuddy_Coin_EP1_DisplayName": "EP1 2020 Coin Buddy",
+          "GunBuddy_Bullet01_DisplayName": "Bullet Buddy",
+          "GunBuddy_Pizza_DisplayName": "Pizza Buddy",
+          "GunBuddy_Doughnut_DisplayName": "Donut Buddy",
+          "GunBuddy_SwissCheese_DisplayName": "Cheesed Buddy",
+          "GunBuddy_LuckyCat_DisplayName": "GL Have Cat Buddy",
+          "GunBuddy_Toaster_DisplayName": "Toaster Buddy",
+          "GunBuddy_Minnow_DisplayName": "Minnow Buddy",
+          "GunBuddy_HypeBeast_DisplayName": "Prime Buddy"
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/Equippables/Buddies/Act1BP_GunBuddy_Strings"
+    }
+  }
+]
