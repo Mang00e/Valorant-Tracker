@@ -1,0 +1,26 @@
+[
+  {
+    "StringTable": {
+      "TableNamespace": "DrawVote_Strings",
+      "KeysToMetadata": {
+        "DrawVote_Strings": {
+          "Draw_VoteTitle": "DRAW MATCH?",
+          "Draw_VoteTerminate_EitherTeam_Ally": "Your team has voted to end the match in a draw.",
+          "Draw_VoteTerminate_EitherTeam_Enemy": "The enemy team has voted to end the match in a draw.",
+          "Draw_VoteTerminate_BothTeams": "Both teams have voted to end the match in a draw.",
+          "Draw_VoteTerminate_AnyPlayer": "A player has voted to end the match in a draw.",
+          "Draw_VoteContinue_Ally": "Your team has voted to continue the match.",
+          "Draw_VoteContinue_Enemy": "The enemy team has voted to continue the match.",
+          "Draw_Outcome_TerminateMatch": "Voting complete. The match will end in a draw.",
+          "Draw_Outcome_ContinueMatch": "Voting complete. The match will continue.",
+          "Draw_VoteTerminate_EitherTeam_Neutral": "A team has voted to end the match in a draw.",
+          "Draw_VoteContinue_Neutral": "A team has voted to continue the match.",
+          "Draw_VoteStartNotification": "An automated vote has been intiated to decide whether the match should continue or end in a draw."
+        }
+      }
+    },
+    "StringTableId": {
+      "String": "/Game/Voting/DrawVote/DrawVote_Strings"
+    }
+  }
+]
