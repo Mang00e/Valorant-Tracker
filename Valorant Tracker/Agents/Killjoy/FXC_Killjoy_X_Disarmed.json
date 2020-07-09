@@ -1,10 +1,30 @@
 [
   {},
   null,
+  {
+    "UberGraphFrame": {
+      "Position": 321,
+      "Value": {}
+    },
+    "DelayToFadeout": {
+      "Position": 354,
+      "Value": 7.0
+    }
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
   {},
   {
     "1P_Animation": {
-      "Position": 183,
+      "Position": 1204,
       "Value": {
         "Resource": {
           "ObjectName": {
@@ -22,13 +42,67 @@
           }
         }
       }
+    },
+    "3P_Animation": {
+      "Position": 1233,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "TP_Killjoy_S0_X_Detained_Montage"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/Characters/Killjoy/S0/Ability_X/3P/Anims/TP_Killjoy_S0_X_Detained_Montage"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "EmitterTemplate1P": {
+      "Position": 1274,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "ps_x_detained_1P_01"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/Characters/Killjoy/S0/VFX/ps_x_detained_1P_01"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
     }
   },
   {},
   {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
   {
     "ComponentClass": {
-      "Position": 273,
+      "Position": 1792,
       "Value": {
         "Resource": {
           "ObjectName": {
@@ -48,19 +122,19 @@
       }
     },
     "ComponentTemplate": {
-      "Position": 302,
+      "Position": 1821,
       "Value": {
         "Resource": null
       }
     },
     "VariableGuid": {
-      "Position": 355,
+      "Position": 1874,
       "Value": {
         "Hex": "3396439989-1080633314-2821440904-3503036598"
       }
     },
     "InternalVariableName": {
-      "Position": 396,
+      "Position": 1915,
       "Value": {
         "String": "DefaultSceneRoot"
       }
@@ -68,7 +142,7 @@
   },
   {
     "ComponentClass": {
-      "Position": 441,
+      "Position": 1960,
       "Value": {
         "Resource": {
           "ObjectName": {
@@ -88,36 +162,82 @@
       }
     },
     "ComponentTemplate": {
-      "Position": 470,
+      "Position": 1989,
       "Value": {
         "Resource": null
       }
     },
     "VariableGuid": {
-      "Position": 523,
+      "Position": 2042,
       "Value": {
         "Hex": "2766124227-1274989291-3544236185-850570151"
       }
     },
     "InternalVariableName": {
-      "Position": 564,
+      "Position": 2083,
       "Value": {
         "String": "Comp_FXC_PlayAnimation_ShooterCharacter"
       }
     }
   },
   {
+    "ComponentClass": {
+      "Position": 2128,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "Comp_FXC_SpawnParticle_ShooterCharacter_C"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/Characters/Components/Comp_FXC_SpawnParticle_ShooterCharacter"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "ComponentTemplate": {
+      "Position": 2157,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "VariableGuid": {
+      "Position": 2210,
+      "Value": {
+        "Hex": "1787744803-1233420622-1200604085-248583100"
+      }
+    },
+    "InternalVariableName": {
+      "Position": 2251,
+      "Value": {
+        "String": "Comp_FXC_SpawnParticle_ShooterCharacter"
+      }
+    }
+  },
+  {
     "RootNodes": {
-      "Position": 617,
+      "Position": 2304,
       "Value": [
         {
-          "Position": 621,
+          "Position": 2308,
           "Value": {
             "Resource": null
           }
         },
         {
-          "Position": 625,
+          "Position": 2312,
+          "Value": {
+            "Resource": null
+          }
+        },
+        {
+          "Position": 2316,
           "Value": {
             "Resource": null
           }
@@ -125,16 +245,22 @@
       ]
     },
     "AllNodes": {
-      "Position": 662,
+      "Position": 2353,
       "Value": [
         {
-          "Position": 666,
+          "Position": 2357,
           "Value": {
             "Resource": null
           }
         },
         {
-          "Position": 670,
+          "Position": 2361,
+          "Value": {
+            "Resource": null
+          }
+        },
+        {
+          "Position": 2365,
           "Value": {
             "Resource": null
           }
@@ -142,10 +268,11 @@
       ]
     },
     "DefaultSceneRootNode": {
-      "Position": 699,
+      "Position": 2394,
       "Value": {
         "Resource": null
       }
     }
-  }
+  },
+  {}
 ]
