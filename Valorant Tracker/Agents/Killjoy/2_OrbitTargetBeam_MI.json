@@ -1,0 +1,615 @@
+[
+  {
+    "Parent": {
+      "Position": 25,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "0_GenericA01_MAT"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/VFX/Materials/0_GenericA01_MAT"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "bHasStaticPermutationResource": {
+      "Position": 53,
+      "Value": true
+    },
+    "ScalarParameterValues": {
+      "Position": 88,
+      "Value": [
+        {
+          "Position": 141,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 190,
+              "Value": {
+                "Name": {
+                  "Position": 215,
+                  "Value": {
+                    "String": "Emissive_Base_Power"
+                  }
+                },
+                "Association": {
+                  "Position": 256,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 289,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 326,
+              "Value": 2.0
+            },
+            "ExpressionGUID": {
+              "Position": 379,
+              "Value": {
+                "Hex": "2143191931-1291450140-3208758696-1609104027"
+              }
+            }
+          }
+        },
+        {
+          "Position": 403,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 452,
+              "Value": {
+                "Name": {
+                  "Position": 477,
+                  "Value": {
+                    "String": "Emissive_Rotate"
+                  }
+                },
+                "Association": {
+                  "Position": 518,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 551,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 588,
+              "Value": 0.25
+            },
+            "ExpressionGUID": {
+              "Position": 641,
+              "Value": {
+                "Hex": "441388940-1161575871-3376779138-2499520606"
+              }
+            }
+          }
+        },
+        {
+          "Position": 665,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 714,
+              "Value": {
+                "Name": {
+                  "Position": 739,
+                  "Value": {
+                    "String": "Emissive_ScaleU"
+                  }
+                },
+                "Association": {
+                  "Position": 780,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 813,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 850,
+              "Value": 10.0
+            },
+            "ExpressionGUID": {
+              "Position": 903,
+              "Value": {
+                "Hex": "52085411-1128583213-137537957-1905468145"
+              }
+            }
+          }
+        },
+        {
+          "Position": 927,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 976,
+              "Value": {
+                "Name": {
+                  "Position": 1001,
+                  "Value": {
+                    "String": "Emissive_ScaleV"
+                  }
+                },
+                "Association": {
+                  "Position": 1042,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 1075,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 1112,
+              "Value": 1.0
+            },
+            "ExpressionGUID": {
+              "Position": 1165,
+              "Value": {
+                "Hex": "1165617116-1223613081-1708623746-2078149736"
+              }
+            }
+          }
+        },
+        {
+          "Position": 1189,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 1238,
+              "Value": {
+                "Name": {
+                  "Position": 1263,
+                  "Value": {
+                    "String": "Emissive_ScrollU"
+                  }
+                },
+                "Association": {
+                  "Position": 1304,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 1337,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 1374,
+              "Value": 10.0
+            },
+            "ExpressionGUID": {
+              "Position": 1427,
+              "Value": {
+                "Hex": "1466984612-1328113142-3319453108-2047356748"
+              }
+            }
+          }
+        },
+        {
+          "Position": 1451,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 1500,
+              "Value": {
+                "Name": {
+                  "Position": 1525,
+                  "Value": {
+                    "String": "Alpha_Base_Power"
+                  }
+                },
+                "Association": {
+                  "Position": 1566,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 1599,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 1636,
+              "Value": 0.5
+            },
+            "ExpressionGUID": {
+              "Position": 1689,
+              "Value": {
+                "Hex": "648186824-1143951590-1525921192-4245397689"
+              }
+            }
+          }
+        },
+        {
+          "Position": 1713,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 1762,
+              "Value": {
+                "Name": {
+                  "Position": 1787,
+                  "Value": {
+                    "String": "Alpha_Rotate"
+                  }
+                },
+                "Association": {
+                  "Position": 1828,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 1861,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 1898,
+              "Value": 0.25
+            },
+            "ExpressionGUID": {
+              "Position": 1951,
+              "Value": {
+                "Hex": "3005513789-1275467686-1364108436-3674573237"
+              }
+            }
+          }
+        },
+        {
+          "Position": 1975,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 2024,
+              "Value": {
+                "Name": {
+                  "Position": 2049,
+                  "Value": {
+                    "String": "Alpha_ScaleU"
+                  }
+                },
+                "Association": {
+                  "Position": 2090,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 2123,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 2160,
+              "Value": 10.0
+            },
+            "ExpressionGUID": {
+              "Position": 2213,
+              "Value": {
+                "Hex": "3409363085-1148208082-2679885706-1428248949"
+              }
+            }
+          }
+        },
+        {
+          "Position": 2237,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 2286,
+              "Value": {
+                "Name": {
+                  "Position": 2311,
+                  "Value": {
+                    "String": "Alpha_ScaleV"
+                  }
+                },
+                "Association": {
+                  "Position": 2352,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 2385,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 2422,
+              "Value": 1.0
+            },
+            "ExpressionGUID": {
+              "Position": 2475,
+              "Value": {
+                "Hex": "2539833980-1213255205-3316647560-1471975051"
+              }
+            }
+          }
+        },
+        {
+          "Position": 2499,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 2548,
+              "Value": {
+                "Name": {
+                  "Position": 2573,
+                  "Value": {
+                    "String": "Alpha_ScrollU"
+                  }
+                },
+                "Association": {
+                  "Position": 2614,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 2647,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 2684,
+              "Value": 10.0
+            },
+            "ExpressionGUID": {
+              "Position": 2737,
+              "Value": {
+                "Hex": "1577963877-1202487999-426560914-3408989427"
+              }
+            }
+          }
+        },
+        {
+          "Position": 2761,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 2810,
+              "Value": {
+                "Name": {
+                  "Position": 2835,
+                  "Value": {
+                    "String": "RefractionDepthBias"
+                  }
+                },
+                "Association": {
+                  "Position": 2876,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 2909,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 2946,
+              "Value": 0.0
+            },
+            "ExpressionGUID": {
+              "Position": 2999,
+              "Value": {
+                "Hex": "0-0-0-0"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "TextureParameterValues": {
+      "Position": 3056,
+      "Value": [
+        {
+          "Position": 3109,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 3158,
+              "Value": {
+                "Name": {
+                  "Position": 3183,
+                  "Value": {
+                    "String": "Emissive_Base"
+                  }
+                },
+                "Association": {
+                  "Position": 3224,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 3257,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 3294,
+              "Value": {
+                "Resource": {
+                  "ObjectName": {
+                    "String": "WavyBeam_TEX"
+                  },
+                  "OuterIndex": {
+                    "Resource": {
+                      "ObjectName": {
+                        "String": "/Game/VFX/Textures/Mask/WavyBeam_TEX"
+                      },
+                      "OuterIndex": {
+                        "Resource": null
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "ExpressionGUID": {
+              "Position": 3347,
+              "Value": {
+                "Hex": "4038573065-1140036758-1658708108-3930359270"
+              }
+            }
+          }
+        },
+        {
+          "Position": 3371,
+          "Value": {
+            "ParameterInfo": {
+              "Position": 3420,
+              "Value": {
+                "Name": {
+                  "Position": 3445,
+                  "Value": {
+                    "String": "Alpha_Base"
+                  }
+                },
+                "Association": {
+                  "Position": 3486,
+                  "Value": 37
+                },
+                "Index": {
+                  "Position": 3519,
+                  "Value": -1
+                }
+              }
+            },
+            "ParameterValue": {
+              "Position": 3556,
+              "Value": {
+                "Resource": {
+                  "ObjectName": {
+                    "String": "WavyBeam_TEX"
+                  },
+                  "OuterIndex": {
+                    "Resource": {
+                      "ObjectName": {
+                        "String": "/Game/VFX/Textures/Mask/WavyBeam_TEX"
+                      },
+                      "OuterIndex": {
+                        "Resource": null
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "ExpressionGUID": {
+              "Position": 3609,
+              "Value": {
+                "Hex": "3424887154-1217861773-2513765763-613821998"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "BasePropertyOverrides": {
+      "Position": 3682,
+      "Value": {
+        "BlendMode": {
+          "Position": 3715,
+          "Value": 18
+        },
+        "ShadingModel": {
+          "Position": 3756,
+          "Value": 45
+        },
+        "OpacityMaskClipValue": {
+          "Position": 3789,
+          "Value": 0.3333
+        }
+      }
+    },
+    "StaticParameters": {
+      "Position": 3850,
+      "Value": {
+        "StaticSwitchParameters": {
+          "Position": 3883,
+          "Value": [
+            {
+              "Position": 3936,
+              "Value": {
+                "ParameterInfo": {
+                  "Position": 3985,
+                  "Value": {
+                    "Name": {
+                      "Position": 4010,
+                      "Value": {
+                        "String": "Emissive_aToggle"
+                      }
+                    },
+                    "Association": {
+                      "Position": 4051,
+                      "Value": 37
+                    },
+                    "Index": {
+                      "Position": 4084,
+                      "Value": -1
+                    }
+                  }
+                },
+                "Value": {
+                  "Position": 4120,
+                  "Value": true
+                },
+                "bOverride": {
+                  "Position": 4146,
+                  "Value": true
+                },
+                "ExpressionGUID": {
+                  "Position": 4197,
+                  "Value": {
+                    "Hex": "14362197-1141561045-3334911904-2549181616"
+                  }
+                }
+              }
+            },
+            {
+              "Position": 4221,
+              "Value": {
+                "ParameterInfo": {
+                  "Position": 4270,
+                  "Value": {
+                    "Name": {
+                      "Position": 4295,
+                      "Value": {
+                        "String": "Alpha_aToggle"
+                      }
+                    },
+                    "Association": {
+                      "Position": 4336,
+                      "Value": 37
+                    },
+                    "Index": {
+                      "Position": 4369,
+                      "Value": -1
+                    }
+                  }
+                },
+                "Value": {
+                  "Position": 4405,
+                  "Value": true
+                },
+                "bOverride": {
+                  "Position": 4431,
+                  "Value": true
+                },
+                "ExpressionGUID": {
+                  "Position": 4482,
+                  "Value": {
+                    "Hex": "1514837712-1207020340-2099223456-2317079773"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]
