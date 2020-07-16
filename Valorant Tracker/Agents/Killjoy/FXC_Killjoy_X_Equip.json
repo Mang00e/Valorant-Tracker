@@ -1,0 +1,176 @@
+[
+  {},
+  null,
+  {
+    "InitialLifeSpan": {
+      "Position": 175,
+      "Value": 1.0
+    }
+  },
+  {
+    "1P_Animation": {
+      "Position": 212,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "FP_Killjoy_Ult_Equip_Montage"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/Characters/Killjoy/Proto/Movement/1P/Anims/FP_Killjoy_Ult_Equip_Montage"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "3P_Animation": {
+      "Position": 241,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "Killjoy_Ult_Equip_Montage"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/Characters/Killjoy/Proto/Movement/3P/Anims/Killjoy_Ult_Equip_Montage"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {},
+  {},
+  {
+    "ComponentClass": {
+      "Position": 331,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "SceneComponent"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Script/Engine"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "ComponentTemplate": {
+      "Position": 360,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "VariableGuid": {
+      "Position": 413,
+      "Value": {
+        "Hex": "2551922273-1090612982-769366463-1428114063"
+      }
+    },
+    "InternalVariableName": {
+      "Position": 454,
+      "Value": {
+        "String": "DefaultSceneRoot"
+      }
+    }
+  },
+  {
+    "ComponentClass": {
+      "Position": 499,
+      "Value": {
+        "Resource": {
+          "ObjectName": {
+            "String": "Comp_FXC_PlayAnimation_ShooterCharacter_C"
+          },
+          "OuterIndex": {
+            "Resource": {
+              "ObjectName": {
+                "String": "/Game/Characters/Components/Comp_FXC_PlayAnimation_ShooterCharacter"
+              },
+              "OuterIndex": {
+                "Resource": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "ComponentTemplate": {
+      "Position": 528,
+      "Value": {
+        "Resource": null
+      }
+    },
+    "VariableGuid": {
+      "Position": 581,
+      "Value": {
+        "Hex": "2195735134-1094602580-2640600239-1478621213"
+      }
+    },
+    "InternalVariableName": {
+      "Position": 622,
+      "Value": {
+        "String": "Comp_FXC_PlayAnimation_ShooterCharacter"
+      }
+    }
+  },
+  {
+    "RootNodes": {
+      "Position": 675,
+      "Value": [
+        {
+          "Position": 679,
+          "Value": {
+            "Resource": null
+          }
+        },
+        {
+          "Position": 683,
+          "Value": {
+            "Resource": null
+          }
+        }
+      ]
+    },
+    "AllNodes": {
+      "Position": 720,
+      "Value": [
+        {
+          "Position": 724,
+          "Value": {
+            "Resource": null
+          }
+        },
+        {
+          "Position": 728,
+          "Value": {
+            "Resource": null
+          }
+        }
+      ]
+    },
+    "DefaultSceneRootNode": {
+      "Position": 757,
+      "Value": {
+        "Resource": null
+      }
+    }
+  }
+]
