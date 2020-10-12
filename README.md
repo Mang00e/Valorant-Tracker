@@ -7,4 +7,5 @@ To see new changes, simply click on the commits icon. All changes between .inis 
 
 
 Twitter: https://twitter.com/ValorantExpress
+
 Discord: https://discord.gg/qavz2sZ
