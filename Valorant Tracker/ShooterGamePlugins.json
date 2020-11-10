@@ -5,8 +5,8 @@
 			"Descriptor": 
 			{
 				"FileVersion": 3,
-				"Version": 201811242,
-				"VersionName": "2018.1.6.6858.1242",
+				"Version": 201921803,
+				"VersionName": "2019.2.7.7402.1803",
 				"FriendlyName": "Wwise Unreal Engine 4 Integration",
 				"Description": "Wwise integration for Unreal Engine 4",
 				"Category": "Audio",
@@ -366,32 +366,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Mobile Patching Utilities",
-				"Description": "Blueprint exposed functionality for downloading and patching content on mobile platforms",
-				"Category": "Mobile",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": false,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "MobilePatchingUtils",
-						"Type": "Runtime",
-						"LoadingPhase": "Default"
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Runtime/ApexDestruction/ApexDestruction.uplugin",
 			"Descriptor": 
 			{
@@ -571,6 +545,136 @@
 					{
 						"Name": "NiagaraEditorWidgets",
 						"Type": "Editor",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Experimental/RemoteSession/RemoteSession.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "RemoteSession",
+				"Description": "A plugin for Unreal that allows one instance to act as a thin-client (rendering and input) to a second instance",
+				"Category": "Experimental",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": true,
+				"Modules": [
+					{
+						"Name": "RemoteSession",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
+						"BlacklistPlatforms": [
+							"HTML5",
+							"TVOS"
+						]
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "BackChannel",
+						"Enabled": true
+					},
+					{
+						"Name": "AppleImageUtils",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Experimental/BackChannel/BackChannel.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1",
+				"FriendlyName": "BackChannel",
+				"Description": "BackChannel is an experimetal plugin that allows external tools and apps to query for and push data into a running Unreal session.",
+				"Category": "Experimental",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "BackChannel",
+						"Type": "RuntimeNoCommandlet",
+						"LoadingPhase": "Default",
+						"BlacklistPlatforms": [
+							"HTML5"
+						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Runtime/AppleImageUtils/AppleImageUtils.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Apple Image Utils",
+				"Description": "Utilities that operate on CIImage, CVPixelBuffer, IOSurface, etc.",
+				"Category": "Experimental",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "AppleImageUtils",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					},
+					{
+						"Name": "AppleImageUtilsBlueprintSupport",
+						"Type": "Developer",
+						"LoadingPhase": "Default",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Mac",
+							"Linux"
+						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../ShooterGame/Plugins/EsportsEvents/EsportsEvents.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "EsportsEvents",
+				"Description": "",
+				"Category": "Other",
+				"CreatedBy": "",
+				"CreatedByURL": "",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"CanContainContent": true,
+				"Modules": [
+					{
+						"Name": "EsportsEvents",
+						"Type": "Runtime",
 						"LoadingPhase": "Default"
 					}
 				]
@@ -969,35 +1073,6 @@
 						"Name": "ScreenshotTools",
 						"Type": "Editor",
 						"LoadingPhase": "Default"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Experimental/BackChannel/BackChannel.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1",
-				"FriendlyName": "BackChannel",
-				"Description": "BackChannel is an experimetal plugin that allows external tools and apps to query for and push data into a running Unreal session.",
-				"Category": "Experimental",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "BackChannel",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "Default",
-						"BlacklistPlatforms": [
-							"HTML5"
-						]
 					}
 				]
 			}
@@ -1580,42 +1655,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/AppleImageUtils/AppleImageUtils.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Apple Image Utils",
-				"Description": "Utilities that operate on CIImage, CVPixelBuffer, IOSurface, etc.",
-				"Category": "Experimental",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "AppleImageUtils",
-						"Type": "Runtime",
-						"LoadingPhase": "Default"
-					},
-					{
-						"Name": "AppleImageUtilsBlueprintSupport",
-						"Type": "Developer",
-						"LoadingPhase": "Default",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Mac",
-							"Linux"
-						]
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin",
 			"Descriptor": 
 			{
@@ -2008,6 +2047,32 @@
 							"Win64",
 							"Win32"
 						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Sentry/Sentry.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Sentry Plugin",
+				"Description": "Sentry Native plugin to handle crash reporting",
+				"Category": "Riot",
+				"CreatedBy": "Riot Games Inc",
+				"CreatedByURL": "",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "Sentry",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
 					}
 				]
 			}
