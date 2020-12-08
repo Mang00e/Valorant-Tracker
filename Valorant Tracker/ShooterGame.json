@@ -5,8 +5,8 @@
 			"Descriptor": 
 			{
 				"FileVersion": 3,
-				"Version": 201811242,
-				"VersionName": "2018.1.6.6858.1242",
+				"Version": 201921803,
+				"VersionName": "2019.2.7.7402.1803",
 				"FriendlyName": "Wwise Unreal Engine 4 Integration",
 				"Description": "Wwise integration for Unreal Engine 4",
 				"Category": "Audio",
@@ -68,8 +68,8 @@
 			"Descriptor": 
 			{
 				"FileVersion": 3,
-				"Version": 21,
-				"VersionName": "1.2.9.2",
+				"Version": 22,
+				"VersionName": "1.2.9.3",
 				"FriendlyName": "Instance Tool",
 				"Description": "Edit instanced static mesh directly in editor viewports",
 				"Category": "Editor",
@@ -222,7 +222,7 @@
 					},
 					{
 						"Name": "OnlineBlueprintSupport",
-						"Type": "Developer",
+						"Type": "UncookedOnly",
 						"LoadingPhase": "PostConfigInit"
 					}
 				],
@@ -277,7 +277,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/GameplayAbilities/GameplayAbilities.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/GameplayAbilities/GameplayAbilities.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -302,7 +302,7 @@
 					},
 					{
 						"Name": "GameplayAbilitiesEditor",
-						"Type": "Developer",
+						"Type": "UncookedOnly",
 						"LoadingPhase": "PreDefault"
 					}
 				],
@@ -334,7 +334,7 @@
 				"Modules": [
 					{
 						"Name": "GameplayTagsEditor",
-						"Type": "Developer",
+						"Type": "UncookedOnly",
 						"LoadingPhase": "PreDefault"
 					}
 				]
@@ -366,33 +366,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Mobile Patching Utilities",
-				"Description": "Blueprint exposed functionality for downloading and patching content on mobile platforms",
-				"Category": "Mobile",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": false,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "MobilePatchingUtils",
-						"Type": "Runtime",
-						"LoadingPhase": "Default"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Runtime/ApexDestruction/ApexDestruction.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/ApexDestruction/ApexDestruction.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -419,7 +393,7 @@
 					},
 					{
 						"Name": "ApexDestructionEditor",
-						"Type": "Developer",
+						"Type": "UncookedOnly",
 						"LoadingPhase": "PreDefault"
 					}
 				]
@@ -485,7 +459,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/WebBrowserWidget/WebBrowserWidget.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -566,7 +540,7 @@
 					{
 						"Name": "NiagaraEditor",
 						"Type": "Editor",
-						"LoadingPhase": "PreDefault"
+						"LoadingPhase": "Default"
 					},
 					{
 						"Name": "NiagaraEditorWidgets",
@@ -599,7 +573,14 @@
 						"Type": "Runtime",
 						"LoadingPhase": "PostConfigInit",
 						"BlacklistPlatforms": [
-							"HTML5",
+							"TVOS"
+						]
+					},
+					{
+						"Name": "RemoteSessionEditor",
+						"Type": "Editor",
+						"LoadingPhase": "Default",
+						"BlacklistPlatforms": [
 							"TVOS"
 						]
 					}
@@ -611,6 +592,10 @@
 					},
 					{
 						"Name": "AppleImageUtils",
+						"Enabled": true
+					},
+					{
+						"Name": "MediaIOFramework",
 						"Enabled": true
 					}
 				]
@@ -637,16 +622,13 @@
 					{
 						"Name": "BackChannel",
 						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "Default",
-						"BlacklistPlatforms": [
-							"HTML5"
-						]
+						"LoadingPhase": "Default"
 					}
 				]
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/AppleImageUtils/AppleImageUtils.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/AppleImageUtils/AppleImageUtils.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -670,11 +652,71 @@
 					},
 					{
 						"Name": "AppleImageUtilsBlueprintSupport",
-						"Type": "Developer",
+						"Type": "UncookedOnly",
 						"LoadingPhase": "Default",
 						"WhitelistPlatforms": [
 							"Win64",
 							"Mac",
+							"Linux"
+						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Media/MediaIOFramework/MediaIOFramework.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Media IO Framework",
+				"Description": "Media Framework classes to support Professional Media IO used by the Virtual Production industry.",
+				"Category": "Media",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "MediaIOCore",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					},
+					{
+						"Name": "MediaIOEditor",
+						"Type": "Editor",
+						"LoadingPhase": "PostEngineInit"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../ShooterGame/Plugins/EsportsEvents/EsportsEvents.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "EsportsEvents",
+				"Description": "",
+				"Category": "Other",
+				"CreatedBy": "",
+				"CreatedByURL": "",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"CanContainContent": true,
+				"Modules": [
+					{
+						"Name": "EsportsEvents",
+						"Type": "Runtime",
+						"LoadingPhase": "Default",
+						"WhitelistPlatforms": [
+							"Win64",
 							"Linux"
 						]
 					}
@@ -832,7 +874,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/SignificanceManager/SignificanceManager.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/SignificanceManager/SignificanceManager.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -858,6 +900,32 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "UObject Example Plugin",
+				"Description": "An example of a plugin which declares its own UObject type.  This can be used as a starting point when creating your own plugin.",
+				"Category": "Examples",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "UObjectPlugin",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Editor/AssetManagerEditor/AssetManagerEditor.uplugin",
 			"Descriptor": 
 			{
@@ -877,75 +945,8 @@
 				"Modules": [
 					{
 						"Name": "AssetManagerEditor",
-						"Type": "Developer",
+						"Type": "UncookedOnly",
 						"LoadingPhase": "PreDefault"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Editor/CryptoKeys/CryptoKeys.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "CryptoKeys",
-				"Description": "",
-				"Category": "Other",
-				"CreatedBy": "",
-				"CreatedByURL": "",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": true,
-				"Modules": [
-					{
-						"Name": "CryptoKeys",
-						"Type": "Developer",
-						"LoadingPhase": "Default",
-						"WhitelistPlatforms": [
-							"Mac",
-							"Win64",
-							"Linux"
-						]
-					},
-					{
-						"Name": "CryptoKeysOpenSSL",
-						"Type": "Developer",
-						"LoadingPhase": "Default",
-						"WhitelistPlatforms": [
-							"Mac",
-							"Win64",
-							"Linux"
-						]
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Editor/CurveEditorTools/CurveEditorTools.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Curve Editor Tools",
-				"Description": "This provides a default set of editing tools for the Curve Editor.",
-				"Category": "Editor",
-				"CreatedBy": "",
-				"CreatedByURL": "",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": true,
-				"Modules": [
-					{
-						"Name": "CurveEditorTools",
-						"Type": "Editor",
-						"LoadingPhase": "Default"
 					}
 				]
 			}
@@ -996,7 +997,7 @@
 				"VersionName": "1.0",
 				"FriendlyName": "Variant Manager Content",
 				"Description": "Data classes and assets for the Variant Manager enterprise plugin",
-				"Category": "Unreal Studio",
+				"Category": "Editor",
 				"CreatedBy": "Epic Games, Inc.",
 				"CreatedByURL": "http://epicgames.com",
 				"DocsURL": "https://docs.unrealengine.com/en-US/Studio/Datasmith",
@@ -1009,6 +1010,11 @@
 					{
 						"Name": "VariantManagerContent",
 						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit"
+					},
+					{
+						"Name": "VariantManagerContentEditor",
+						"Type": "Editor",
 						"LoadingPhase": "Default"
 					}
 				]
@@ -1030,7 +1036,7 @@
 				"MarketplaceURL": "",
 				"SupportURL": "",
 				"EnabledByDefault": true,
-				"CanContainContent": true,
+				"CanContainContent": false,
 				"IsBetaVersion": true,
 				"Modules": [
 					{
@@ -1146,6 +1152,25 @@
 						],
 						"WhitelistPrograms": [
 							"UnrealPak"
+						]
+					},
+					{
+						"Name": "PlatformCryptoTypes",
+						"Type": "RuntimeAndProgram",
+						"LoadingPhase": "EarliestPossible",
+						"WhitelistPlatforms": [
+							"Android",
+							"IOS",
+							"Mac",
+							"Win32",
+							"Win64",
+							"Linux",
+							"PS4",
+							"XboxOne",
+							"Switch"
+						],
+						"BlacklistPlatforms": [
+							"TVOS"
 						]
 					},
 					{
@@ -1385,9 +1410,6 @@
 						"Name": "TcpMessaging",
 						"Type": "Runtime",
 						"LoadingPhase": "PreDefault",
-						"BlacklistPlatforms": [
-							"HTML5"
-						],
 						"WhitelistPrograms": [
 							"UnrealFrontend"
 						]
@@ -1416,21 +1438,20 @@
 					"UnrealFrontend",
 					"UnrealMultiUserServer",
 					"UnrealDisasterRecoveryService",
-					"UnrealLightmass"
+					"UnrealLightmass",
+					"CrashReportClientEditor"
 				],
 				"Modules": [
 					{
 						"Name": "UdpMessaging",
 						"Type": "RuntimeAndProgram",
 						"LoadingPhase": "PreDefault",
-						"BlacklistPlatforms": [
-							"HTML5"
-						],
 						"WhitelistPrograms": [
 							"UnrealFrontend",
 							"UnrealMultiUserServer",
 							"UnrealDisasterRecoveryService",
-							"UnrealLightmass"
+							"UnrealLightmass",
+							"CrashReportClientEditor"
 						]
 					}
 				]
@@ -1493,7 +1514,7 @@
 				"Modules": [
 					{
 						"Name": "NetcodeUnitTest",
-						"Type": "Developer",
+						"Type": "UncookedOnly",
 						"LoadingPhase": "Default",
 						"WhitelistPlatforms": [
 							"Win64",
@@ -1656,7 +1677,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/ArchVisCharacter/ArchVisCharacter.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1687,7 +1708,33 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/AudioCapture/AudioCapture.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/AssetTags/AssetTags.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Asset Tags",
+				"Description": "Provides high-level management and access to asset tags and collections for runtime and editor scripting.",
+				"Category": "Other",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "AssetTags",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/RunTime/AudioCapture/AudioCapture.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1726,7 +1773,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/CableComponent/CableComponent.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1752,7 +1799,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/CustomMeshComponent/CustomMeshComponent.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1777,16 +1824,13 @@
 					{
 						"Name": "CustomMeshComponent",
 						"Type": "Runtime",
-						"LoadingPhase": "Default",
-						"BlacklistPlatforms": [
-							"HTML5"
-						]
+						"LoadingPhase": "Default"
 					}
 				]
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/EditableMesh/EditableMesh.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/EditableMesh/EditableMesh.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1817,7 +1861,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1843,7 +1887,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1863,10 +1907,7 @@
 					{
 						"Name": "ProceduralMeshComponent",
 						"Type": "Runtime",
-						"LoadingPhase": "Default",
-						"BlacklistPlatforms": [
-							"HTML5"
-						]
+						"LoadingPhase": "Default"
 					},
 					{
 						"Name": "ProceduralMeshComponentEditor",
@@ -1877,7 +1918,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/RuntimePhysXCooking/RuntimePhysXCooking.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/RuntimePhysXCooking/RuntimePhysXCooking.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1903,7 +1944,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/WebMMoviePlayer/WebMMoviePlayer.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/WebMMoviePlayer/WebMMoviePlayer.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1924,17 +1965,10 @@
 						"Name": "WebMMoviePlayer",
 						"Type": "RuntimeNoCommandlet",
 						"LoadingPhase": "PreLoadingScreen",
-						"BlacklistPlatforms": [
-							"Win32",
-							"XboxOne",
-							"PS4",
-							"IOS",
-							"Android",
-							"HTML5",
-							"TVOS",
-							"Switch",
-							"Lumin",
-							"HoloLens"
+						"WhitelistPlatforms": [
+							"Win64",
+							"Linux",
+							"Mac"
 						],
 						"BlacklistTargets": [
 							"Server"
@@ -1972,17 +2006,10 @@
 						"Name": "WebMMedia",
 						"Type": "RuntimeNoCommandlet",
 						"LoadingPhase": "PostEngineInit",
-						"BlacklistPlatforms": [
-							"Win32",
-							"XboxOne",
-							"PS4",
-							"IOS",
-							"Android",
-							"HTML5",
-							"TVOS",
-							"Switch",
-							"Lumin",
-							"HoloLens"
+						"WhitelistPlatforms": [
+							"Win64",
+							"Linux",
+							"Mac"
 						],
 						"BlacklistTargets": [
 							"Server"
@@ -2002,18 +2029,10 @@
 						"Name": "WebMMediaFactory",
 						"Type": "RuntimeNoCommandlet",
 						"LoadingPhase": "PostEngineInit",
-						"BlacklistPlatforms": [
-							"Win32",
-							"Mac",
-							"XboxOne",
-							"PS4",
-							"IOS",
-							"Android",
-							"HTML5",
-							"TVOS",
-							"Switch",
-							"Lumin",
-							"HoloLens"
+						"WhitelistPlatforms": [
+							"Win64",
+							"Linux",
+							"Mac"
 						],
 						"BlacklistTargets": [
 							"Server"
@@ -2023,7 +2042,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
