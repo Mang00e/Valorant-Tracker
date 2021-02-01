@@ -277,7 +277,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/GameplayAbilities/GameplayAbilities.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/GameplayAbilities/GameplayAbilities.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -366,7 +366,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/ApexDestruction/ApexDestruction.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/ApexDestruction/ApexDestruction.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -459,7 +459,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/WebBrowserWidget/WebBrowserWidget.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -628,7 +628,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/AppleImageUtils/AppleImageUtils.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/AppleImageUtils/AppleImageUtils.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -874,7 +874,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/SignificanceManager/SignificanceManager.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/SignificanceManager/SignificanceManager.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1677,7 +1677,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/ArchVisCharacter/ArchVisCharacter.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1708,7 +1708,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/AssetTags/AssetTags.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/AssetTags/AssetTags.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1734,7 +1734,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/AudioCapture/AudioCapture.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/AudioCapture/AudioCapture.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1773,7 +1773,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/CableComponent/CableComponent.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1799,7 +1799,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/CustomMeshComponent/CustomMeshComponent.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1830,7 +1830,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/EditableMesh/EditableMesh.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/EditableMesh/EditableMesh.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1861,7 +1861,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1887,7 +1887,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1918,7 +1918,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/RuntimePhysXCooking/RuntimePhysXCooking.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/RuntimePhysXCooking/RuntimePhysXCooking.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1944,7 +1944,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/WebMMoviePlayer/WebMMoviePlayer.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/WebMMoviePlayer/WebMMoviePlayer.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -2042,7 +2042,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/RunTime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -2067,32 +2067,6 @@
 							"Win64",
 							"Win32"
 						]
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Sentry/Sentry.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Sentry Plugin",
-				"Description": "Sentry Native plugin to handle crash reporting",
-				"Category": "Riot",
-				"CreatedBy": "Riot Games Inc",
-				"CreatedByURL": "",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "Sentry",
-						"Type": "Runtime",
-						"LoadingPhase": "Default"
 					}
 				]
 			}
