@@ -304,7 +304,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/GameplayAbilities/GameplayAbilities.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/GameplayAbilities/GameplayAbilities.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -393,7 +393,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/ApexDestruction/ApexDestruction.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/ApexDestruction/ApexDestruction.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -486,7 +486,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/WebBrowserWidget/WebBrowserWidget.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -655,7 +655,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/AppleImageUtils/AppleImageUtils.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/AppleImageUtils/AppleImageUtils.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -901,7 +901,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/SignificanceManager/SignificanceManager.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/SignificanceManager/SignificanceManager.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1241,6 +1241,60 @@
 							"Android",
 							"IOS",
 							"TVOS"
+						]
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 2,
+				"VersionName": "2.0",
+				"FriendlyName": "AVF Media Player",
+				"Description": "Implements a media player using Apple AV Foundation.",
+				"Category": "Media Players",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "https://forums.unrealengine.com/showthread.php?46879-Media-Framework-Documentation-for-4-5-Preview",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "AvfMedia",
+						"Type": "RuntimeNoCommandlet",
+						"LoadingPhase": "PreLoadingScreen",
+						"WhitelistPlatforms": [
+							"IOS",
+							"Mac",
+							"TVOS"
+						]
+					},
+					{
+						"Name": "AvfMediaEditor",
+						"Type": "Editor",
+						"LoadingPhase": "PostEngineInit"
+					},
+					{
+						"Name": "AvfMediaFactory",
+						"Type": "Editor",
+						"LoadingPhase": "PostEngineInit"
+					},
+					{
+						"Name": "AvfMediaFactory",
+						"Type": "RuntimeNoCommandlet",
+						"LoadingPhase": "PostEngineInit",
+						"WhitelistPlatforms": [
+							"IOS",
+							"Linux",
+							"Mac",
+							"TVOS",
+							"Win32",
+							"Win64"
 						]
 					}
 				]
@@ -1704,7 +1758,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/ArchVisCharacter/ArchVisCharacter.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1735,7 +1789,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/AssetTags/AssetTags.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/AssetTags/AssetTags.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1761,7 +1815,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/AudioCapture/AudioCapture.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/AudioCapture/AudioCapture.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1800,7 +1854,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/CableComponent/CableComponent.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1826,7 +1880,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/CustomMeshComponent/CustomMeshComponent.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1857,7 +1911,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/EditableMesh/EditableMesh.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/EditableMesh/EditableMesh.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1888,7 +1942,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1914,7 +1968,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1945,7 +1999,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/RuntimePhysXCooking/RuntimePhysXCooking.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/RuntimePhysXCooking/RuntimePhysXCooking.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -1971,7 +2025,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/WebMMoviePlayer/WebMMoviePlayer.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/WebMMoviePlayer/WebMMoviePlayer.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
@@ -2069,7 +2123,7 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
+			"File": "../../../Engine/Plugins/RunTime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
