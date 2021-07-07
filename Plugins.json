@@ -183,62 +183,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/FX/Niagara/Niagara.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Niagara",
-				"Description": "Niagara effect systems.",
-				"Category": "FX",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": false,
-				"CanContainContent": true,
-				"Modules": [
-					{
-						"Name": "NiagaraCore",
-						"Type": "Runtime",
-						"LoadingPhase": "PreDefault"
-					},
-					{
-						"Name": "Niagara",
-						"Type": "Runtime",
-						"LoadingPhase": "PreDefault"
-					},
-					{
-						"Name": "NiagaraAnimNotifies",
-						"Type": "Runtime",
-						"LoadingPhase": "PreDefault"
-					},
-					{
-						"Name": "NiagaraShader",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit"
-					},
-					{
-						"Name": "NiagaraVertexFactories",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit"
-					},
-					{
-						"Name": "NiagaraEditor",
-						"Type": "Editor",
-						"LoadingPhase": "Default"
-					},
-					{
-						"Name": "NiagaraEditorWidgets",
-						"Type": "Editor",
-						"LoadingPhase": "Default"
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin",
 			"Descriptor": 
 			{
@@ -1559,51 +1503,6 @@
 						"Name": "ChaosSolverEditor",
 						"Type": "Editor",
 						"LoadingPhase": "Default"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Experimental/ChaosNiagara/ChaosNiagara.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "0.1",
-				"FriendlyName": "Chaos Niagara",
-				"Description": "Import destruction data from Chaos into Niagara to generate secondary destruction effects.",
-				"Category": "",
-				"CreatedBy": "",
-				"CreatedByURL": "",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": true,
-				"IsBetaVersion": true,
-				"Modules": [
-					{
-						"Name": "ChaosNiagara",
-						"Type": "Runtime",
-						"LoadingPhase": "Default",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32",
-							"PS4",
-							"XboxOne",
-							"Mac",
-							"Linux"
-						]
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "Niagara",
-						"Enabled": true
-					},
-					{
-						"Name": "ChaosSolverPlugin",
-						"Enabled": true
 					}
 				]
 			}
